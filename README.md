@@ -11,6 +11,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [NET-001](notes/NET-001-click-modular-router.md) | The Click Modular Router | 2000 | Networking / Operating Systems | Reading | Core |
 | [DS-001](notes/DS-001-mapreduce.md) | MapReduce: Simplified Data Processing on Large Clusters | 2004 | Distributed Systems | Queued | Core |
 | [DS-002](notes/DS-002-google-file-system.md) | The Google File System | 2003 | Distributed Storage | Queued | Core |
+| [AI-001](notes/AI-001-attention-is-all-you-need.md) | Attention Is All You Need | 2017 | Artificial Intelligence / Machine Learning | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
