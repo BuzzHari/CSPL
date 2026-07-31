@@ -1,0 +1,62 @@
+papers:
+- id: NET-001
+  title: The Click Modular Router
+  authors:
+  - Eddie Kohler
+  - Robert Morris
+  - Benjie Chen
+  - John Jannotti
+  - M. Frans Kaashoek
+  year: 2000
+  field:
+  - Computer Networking
+  - Operating Systems
+  - Packet Processing
+  status: Reading
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established a modular, graph-based architecture for building high-performance
+    packet-processing systems from small reusable elements.
+  primary_source: https://pdos.csail.mit.edu/papers/click:tocs00/paper.pdf
+  date_recommended: '2026-07-29'
+  date_completed: null
+  related_papers: []
+- id: DS-001
+  title: 'MapReduce: Simplified Data Processing on Large Clusters'
+  authors:
+  - Jeffrey Dean
+  - Sanjay Ghemawat
+  year: 2004
+  field:
+  - Distributed Systems
+  - Large-Scale Data Processing
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced a constrained programming model and runtime for fault-tolerant,
+    large-scale parallel data processing and directly influenced Hadoop.
+  primary_source: https://research.google.com/archive/mapreduce-osdi04.pdf
+  date_recommended: '2026-07-30'
+  date_completed: null
+  related_papers:
+  - DS-002
+- id: DS-002
+  title: The Google File System
+  authors:
+  - Sanjay Ghemawat
+  - Howard Gobioff
+  - Shun-Tak Leung
+  year: 2003
+  field:
+  - Distributed Systems
+  - Distributed Storage
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Redefined distributed storage around commodity hardware, continuous
+    component failure, large files, and workload-specific design.
+  primary_source: https://research.google/pubs/the-google-file-system/
+  date_recommended: '2026-07-31'
+  date_completed: null
+  related_papers:
+  - DS-001
