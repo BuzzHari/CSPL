@@ -60,3 +60,29 @@ papers:
   date_completed: null
   related_papers:
   - DS-001
+- id: AI-001
+  title: Attention Is All You Need
+  authors:
+  - Ashish Vaswani
+  - Noam Shazeer
+  - Niki Parmar
+  - Jakob Uszkoreit
+  - Llion Jones
+  - Aidan N. Gomez
+  - Łukasz Kaiser
+  - Illia Polosukhin
+  year: 2017
+  field:
+  - Artificial Intelligence
+  - Machine Learning
+  - Natural Language Processing
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the Transformer architecture, replacing recurrence and convolution
+    with self-attention and becoming the foundation for modern large language models and
+    many systems across language, vision, audio, and multimodal machine learning.
+  primary_source: https://arxiv.org/abs/1706.03762
+  date_recommended: '2026-07-31'
+  date_completed: null
+  related_papers: []
