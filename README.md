@@ -12,7 +12,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [DS-001](notes/DS-001-mapreduce.md) | MapReduce: Simplified Data Processing on Large Clusters | 2004 | Distributed Systems | Queued | Core |
 | [DS-002](notes/DS-002-google-file-system.md) | The Google File System | 2003 | Distributed Storage | Queued | Core |
 | [AI-001](notes/AI-001-attention-is-all-you-need.md) | Attention Is All You Need | 2017 | Artificial Intelligence / Machine Learning | Queued | Core |
-| [OS-001](notes/OS-001-the-unix-time-sharing-system.md) | The UNIX Time-Sharing System | 1974 | Operating Systems / Systems Software | Queued | Core |
+| [OS-001](notes/OS-001-unix-time-sharing-system.md) | The UNIX Time-Sharing System | 1974 | Operating Systems / Systems Software | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
