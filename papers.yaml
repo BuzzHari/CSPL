@@ -86,3 +86,23 @@ papers:
   date_recommended: '2026-07-31'
   date_completed: null
   related_papers: []
+- id: OS-001
+  title: The UNIX Time-Sharing System
+  authors:
+  - Dennis M. Ritchie
+  - Ken Thompson
+  year: 1974
+  field:
+  - Operating Systems
+  - Systems Software
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Described the architecture and programming model of UNIX, including its
+    hierarchical file system, process model, shell, pipes, and small-kernel philosophy,
+    which profoundly shaped modern operating systems and software engineering practice.
+  primary_source: https://www.nokia.com/bell-labs/publications-and-media/publications/the-unix-time-sharing-system/
+  date_recommended: '2026-08-03'
+  date_completed: null
+  related_papers:
+  - NET-001
