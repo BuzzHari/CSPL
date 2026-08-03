@@ -102,7 +102,25 @@ papers:
     hierarchical file system, process model, shell, pipes, and small-kernel philosophy,
     which profoundly shaped modern operating systems and software engineering practice.
   primary_source: https://www.nokia.com/bell-labs/publications-and-media/publications/the-unix-time-sharing-system/
-  date_recommended: '2026-08-03'
+  date_recommended: '2026-08-01'
   date_completed: null
   related_papers:
   - NET-001
+- id: DB-001
+  title: A Relational Model of Data for Large Shared Data Banks
+  authors:
+  - E. F. Codd
+  year: 1970
+  field:
+  - Databases
+  - Data Models
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the relational model, data independence, relational operations,
+    and normalization concepts that became the foundation of relational database systems
+    and SQL-based data management.
+  primary_source: https://research.ibm.com/publications/a-relational-model-of-data-for-large-shared-data-banks
+  date_recommended: '2026-08-03'
+  date_completed: null
+  related_papers: []
