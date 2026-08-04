@@ -124,3 +124,27 @@ papers:
   date_recommended: '2026-08-03'
   date_completed: null
   related_papers: []
+- id: ARCH-001
+  title: End-to-End Arguments in System Design
+  authors:
+  - Jerome H. Saltzer
+  - David P. Reed
+  - David D. Clark
+  year: 1984
+  field:
+  - Systems Architecture
+  - Computer Networking
+  - Distributed Systems
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the end-to-end argument, a foundational principle for deciding
+    where correctness, reliability, security, and other functions should be implemented
+    in layered systems and networks.
+  primary_source: https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
+  date_recommended: '2026-08-04'
+  date_completed: null
+  related_papers:
+  - NET-001
+  - DS-001
+  - DS-002
