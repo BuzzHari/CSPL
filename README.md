@@ -14,6 +14,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [AI-001](notes/AI-001-attention-is-all-you-need.md) | Attention Is All You Need | 2017 | Artificial Intelligence / Machine Learning | Queued | Core |
 | [OS-001](notes/OS-001-unix-time-sharing-system.md) | The UNIX Time-Sharing System | 1974 | Operating Systems / Systems Software | Queued | Core |
 | [DB-001](notes/DB-001-relational-model-of-data.md) | A Relational Model of Data for Large Shared Data Banks | 1970 | Databases / Data Models | Queued | Core |
+| [ARCH-001](notes/ARCH-001-end-to-end-arguments-in-system-design.md) | End-to-End Arguments in System Design | 1984 | Systems Architecture / Networking | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
