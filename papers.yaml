@@ -148,3 +148,28 @@ papers:
   - NET-001
   - DS-001
   - DS-002
+- id: COMP-001
+  title: Efficiently Computing Static Single Assignment Form and the Control Dependence Graph
+  authors:
+  - Ron Cytron
+  - Jeanne Ferrante
+  - Barry K. Rosen
+  - Mark N. Wegman
+  - F. Kenneth Zadeck
+  year: 1991
+  field:
+  - Compilers
+  - Program Analysis
+  - Intermediate Representations
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Made Static Single Assignment form practical by presenting efficient algorithms
+    for phi-function placement, variable renaming, dominance frontiers, and control-dependence
+    construction, shaping modern optimizing compiler infrastructures.
+  primary_source: https://research.ibm.com/publications/efficiently-computing-static-single-assignment-form-and-the-control-dependence-graph
+  date_recommended: '2026-08-05'
+  date_completed: null
+  related_papers:
+  - NET-001
+  - OS-001
