@@ -15,6 +15,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [OS-001](notes/OS-001-unix-time-sharing-system.md) | The UNIX Time-Sharing System | 1974 | Operating Systems / Systems Software | Queued | Core |
 | [DB-001](notes/DB-001-relational-model-of-data.md) | A Relational Model of Data for Large Shared Data Banks | 1970 | Databases / Data Models | Queued | Core |
 | [ARCH-001](notes/ARCH-001-end-to-end-arguments-in-system-design.md) | End-to-End Arguments in System Design | 1984 | Systems Architecture / Networking | Queued | Core |
+| [COMP-001](notes/COMP-001-efficiently-computing-static-single-assignment-form.md) | Efficiently Computing Static Single Assignment Form and the Control Dependence Graph | 1991 | Compilers / Program Analysis | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
