@@ -173,3 +173,26 @@ papers:
   related_papers:
   - NET-001
   - OS-001
+- id: SEC-001
+  title: The Protection of Information in Computer Systems
+  authors:
+  - Jerome H. Saltzer
+  - Michael D. Schroeder
+  year: 1975
+  field:
+  - Computer Security
+  - Operating Systems
+  - Protection Architecture
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established enduring security design principles including least privilege,
+    fail-safe defaults, complete mediation, economy of mechanism, open design, separation
+    of privilege, least common mechanism, and psychological acceptability, while providing
+    a foundational treatment of access control and protection architecture.
+  primary_source: https://web.mit.edu/Saltzer/www/publications/protection/
+  date_recommended: '2026-08-06'
+  date_completed: null
+  related_papers:
+  - OS-001
+  - ARCH-001
