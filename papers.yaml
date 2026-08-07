@@ -196,3 +196,25 @@ papers:
   related_papers:
   - OS-001
   - ARCH-001
+- id: CA-001
+  title: 'RISC I: A Reduced Instruction Set VLSI Computer'
+  authors:
+  - David A. Patterson
+  - Carlo H. Séquin
+  year: 1981
+  field:
+  - Computer Architecture
+  - Instruction Set Architecture
+  - VLSI
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Demonstrated that a deliberately small and regular instruction set, simple
+    control, pipelining, a large register file, and compiler cooperation could deliver high
+    effective performance, helping establish the RISC design movement that shaped modern processors.
+  primary_source: https://www2.eecs.berkeley.edu/Pubs/Faculty/sequin.html
+  date_recommended: '2026-08-07'
+  date_completed: null
+  related_papers:
+  - COMP-001
+  - OS-001
