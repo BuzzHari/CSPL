@@ -18,6 +18,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [COMP-001](notes/COMP-001-efficiently-computing-static-single-assignment-form.md) | Efficiently Computing Static Single Assignment Form and the Control Dependence Graph | 1991 | Compilers / Program Analysis | Queued | Core |
 | [SEC-001](notes/SEC-001-protection-of-information-in-computer-systems.md) | The Protection of Information in Computer Systems | 1975 | Computer Security / Operating Systems | Queued | Core |
 | [CA-001](notes/CA-001-risc-i-reduced-instruction-set-vlsi-computer.md) | RISC I: A Reduced Instruction Set VLSI Computer | 1981 | Computer Architecture / ISA | Queued | Core |
+| [EBPF-001](notes/EBPF-001-bsd-packet-filter.md) | The BSD Packet Filter: A New Architecture for User-level Packet Capture | 1993 | eBPF / Packet Filtering / Networking | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
