@@ -218,3 +218,28 @@ papers:
   related_papers:
   - COMP-001
   - OS-001
+- id: EBPF-001
+  title: 'The BSD Packet Filter: A New Architecture for User-level Packet Capture'
+  authors:
+  - Steven McCanne
+  - Van Jacobson
+  year: 1993
+  field:
+  - eBPF
+  - Packet Filtering
+  - Operating Systems
+  - Computer Networking
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the BSD Packet Filter architecture and compact virtual machine for
+    efficient, programmable in-kernel packet filtering, establishing the direct architectural
+    lineage from classic BPF to modern Linux eBPF.
+  primary_source: https://www.usenix.org/conference/usenix-winter-1993-conference/bsd-packet-filter-new-architecture-user-level-packet
+  date_recommended: '2026-08-08'
+  date_completed: null
+  related_papers:
+  - NET-001
+  - OS-001
+  - COMP-001
+  - CA-001
