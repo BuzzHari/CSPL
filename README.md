@@ -20,6 +20,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [CA-001](notes/CA-001-risc-i-reduced-instruction-set-vlsi-computer.md) | RISC I: A Reduced Instruction Set VLSI Computer | 1981 | Computer Architecture / ISA | Queued | Core |
 | [EBPF-001](notes/EBPF-001-bsd-packet-filter.md) | The BSD Packet Filter: A New Architecture for User-level Packet Capture | 1993 | eBPF / Packet Filtering / Networking | Queued | Core |
 | [ALG-001](notes/ALG-001-quicksort.md) | Quicksort | 1962 | Algorithms / Sorting | Queued | Core |
+| [DBG-001](notes/DBG-001-eraser-dynamic-data-race-detector.md) | Eraser: A Dynamic Data Race Detector for Multithreaded Programs | 1997 | Debugging / Concurrency | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
