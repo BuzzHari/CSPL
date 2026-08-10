@@ -264,3 +264,30 @@ papers:
   related_papers:
   - CA-001
   - COMP-001
+- id: DBG-001
+  title: 'Eraser: A Dynamic Data Race Detector for Multithreaded Programs'
+  authors:
+  - Stefan Savage
+  - Michael Burrows
+  - Greg Nelson
+  - Patrick Sobalvarro
+  - Thomas Anderson
+  year: 1997
+  field:
+  - Debugging
+  - Concurrency
+  - Dynamic Analysis
+  - Operating Systems
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the practical lockset algorithm for dynamically detecting data races
+    in lock-based multithreaded programs, strongly influencing concurrency debugging tools and
+    runtime techniques for finding synchronization errors.
+  primary_source: https://homes.cs.washington.edu/~tom/pubs/eraser.html
+  date_recommended: '2026-08-10'
+  date_completed: null
+  related_papers:
+  - OS-001
+  - SEC-001
+  - COMP-001
