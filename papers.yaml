@@ -313,3 +313,25 @@ papers:
   - ARCH-001
   - OS-001
   - COMP-001
+- id: ML-001
+  title: ImageNet Classification with Deep Convolutional Neural Networks
+  authors:
+  - Alex Krizhevsky
+  - Ilya Sutskever
+  - Geoffrey E. Hinton
+  year: 2012
+  field:
+  - Machine Learning
+  - Deep Learning
+  - Computer Vision
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Demonstrated that large convolutional neural networks trained on GPUs and large labelled datasets could decisively outperform traditional computer-vision pipelines, helping trigger the modern deep-learning era.
+  primary_source: https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+  date_recommended: '2026-08-12'
+  date_completed: null
+  related_papers:
+  - AI-001
+  - CA-001
+  - COMP-001
