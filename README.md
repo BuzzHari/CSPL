@@ -22,6 +22,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [ALG-001](notes/ALG-001-quicksort.md) | Quicksort | 1962 | Algorithms / Sorting | Queued | Core |
 | [DBG-001](notes/DBG-001-eraser-dynamic-data-race-detector.md) | Eraser: A Dynamic Data Race Detector for Multithreaded Programs | 1997 | Debugging / Concurrency | Queued | Core |
 | [ARCH-002](notes/ARCH-002-criteria-decomposing-systems-into-modules.md) | On the Criteria To Be Used in Decomposing Systems into Modules | 1972 | Software Architecture / Modularity | Queued | Core |
+| [ML-001](notes/ML-001-imagenet-classification-deep-convolutional-neural-networks.md) | ImageNet Classification with Deep Convolutional Neural Networks | 2012 | Machine Learning / Deep Learning / Computer Vision | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
