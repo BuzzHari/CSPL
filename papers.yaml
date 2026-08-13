@@ -335,3 +335,25 @@ papers:
   - AI-001
   - CA-001
   - COMP-001
+- id: NET-002
+  title: A Protocol for Packet Network Intercommunication
+  authors:
+  - Vinton G. Cerf
+  - Robert E. Kahn
+  year: 1974
+  field:
+  - Computer Networking
+  - Internet Architecture
+  - Transport Protocols
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Presented the foundational architecture for interconnecting heterogeneous packet-switched networks and described the Transmission Control Program whose concepts evolved into TCP/IP and the modern Internet.
+  primary_source: https://doi.org/10.1109/TCOM.1974.1092259
+  date_recommended: '2026-08-13'
+  date_completed: null
+  related_papers:
+  - NET-001
+  - ARCH-001
+  - EBPF-001
+  - OS-001
