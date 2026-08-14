@@ -357,3 +357,24 @@ papers:
   - ARCH-001
   - EBPF-001
   - OS-001
+- id: DS-003
+  title: Time, Clocks, and the Ordering of Events in a Distributed System
+  authors:
+  - Leslie Lamport
+  year: 1978
+  field:
+  - Distributed Systems
+  - Logical Clocks
+  - Causality
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Formalized the happened-before relation and logical clocks, establishing how distributed systems can reason about causal order without a shared global clock and how a consistent total order can support distributed synchronization and replicated state-machine execution.
+  primary_source: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
+  date_recommended: '2026-08-14'
+  date_completed: null
+  related_papers:
+  - DS-001
+  - DS-002
+  - ARCH-001
+  - NET-002
