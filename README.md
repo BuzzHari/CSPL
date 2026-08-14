@@ -24,6 +24,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [ARCH-002](notes/ARCH-002-criteria-decomposing-systems-into-modules.md) | On the Criteria To Be Used in Decomposing Systems into Modules | 1972 | Software Architecture / Modularity | Queued | Core |
 | [ML-001](notes/ML-001-imagenet-classification-deep-convolutional-neural-networks.md) | ImageNet Classification with Deep Convolutional Neural Networks | 2012 | Machine Learning / Deep Learning / Computer Vision | Queued | Core |
 | [NET-002](notes/NET-002-protocol-for-packet-network-intercommunication.md) | A Protocol for Packet Network Intercommunication | 1974 | Computer Networking / Internet Architecture | Queued | Core |
+| [DS-003](notes/DS-003-time-clocks-ordering-events-distributed-system.md) | Time, Clocks, and the Ordering of Events in a Distributed System | 1978 | Distributed Systems / Logical Clocks | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
