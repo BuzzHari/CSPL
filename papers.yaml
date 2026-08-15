@@ -378,3 +378,24 @@ papers:
   - DS-002
   - ARCH-001
   - NET-002
+- id: OS-002
+  title: The Structure of the “THE”-Multiprogramming System
+  authors:
+  - Edsger W. Dijkstra
+  year: 1968
+  field:
+  - Operating Systems
+  - Layered Architecture
+  - Concurrency
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established hierarchical layering as a practical method for structuring and verifying a multiprogramming operating system, with each level implementing abstractions that simplify the level above and constrain cross-system dependencies.
+  primary_source: https://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html
+  date_recommended: '2026-08-15'
+  date_completed: null
+  related_papers:
+  - OS-001
+  - ARCH-002
+  - SEC-001
+  - COMP-001
