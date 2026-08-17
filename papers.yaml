@@ -422,3 +422,31 @@ papers:
   related_papers:
   - DB-001
   - DS-002
+- id: OBS-001
+  title: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
+  authors:
+  - Benjamin H. Sigelman
+  - Luiz André Barroso
+  - Mike Burrows
+  - Pat Stephenson
+  - Manoj Plakal
+  - Donald Beaver
+  - Saul Jaspan
+  - Chandan Shanbhag
+  year: 2010
+  field:
+  - Observability
+  - Distributed Tracing
+  - Distributed Systems
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established a practical architecture for production-scale distributed tracing using transparent instrumentation, trace and span context propagation, sampling, centralized collection, and reusable analysis tooling, strongly influencing modern distributed tracing systems and standards.
+  primary_source: https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/
+  date_recommended: '2026-08-17'
+  date_completed: null
+  related_papers:
+  - DS-003
+  - ARCH-001
+  - DBG-001
+  - EBPF-001
