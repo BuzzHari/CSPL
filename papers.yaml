@@ -450,3 +450,25 @@ papers:
   - ARCH-001
   - DBG-001
   - EBPF-001
+- id: ML-002
+  title: Deep Residual Learning for Image Recognition
+  authors:
+  - Kaiming He
+  - Xiangyu Zhang
+  - Shaoqing Ren
+  - Jian Sun
+  year: 2016
+  field:
+  - Machine Learning
+  - Deep Learning
+  - Computer Vision
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced residual learning and identity shortcut connections, making substantially deeper neural networks practical to optimize and establishing an architectural pattern that became standard across modern deep learning.
+  primary_source: https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html
+  date_recommended: '2026-08-18'
+  date_completed: null
+  related_papers:
+  - ML-001
+  - AI-001
