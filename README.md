@@ -28,6 +28,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [OS-002](notes/OS-002-structure-of-the-the-multiprogramming-system.md) | The Structure of the “THE”-Multiprogramming System | 1968 | Operating Systems / Layered Architecture | Queued | Core |
 | [DB-002](notes/DB-002-aries-transaction-recovery.md) | ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging | 1992 | Databases / Transaction Recovery | Queued | Core |
 | [OBS-001](notes/OBS-001-dapper-large-scale-distributed-systems-tracing-infrastructure.md) | Dapper, a Large-Scale Distributed Systems Tracing Infrastructure | 2010 | Observability / Distributed Tracing | Queued | Core |
+| [ML-002](notes/ML-002-deep-residual-learning-for-image-recognition.md) | Deep Residual Learning for Image Recognition | 2016 | Machine Learning / Deep Learning / Computer Vision | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
