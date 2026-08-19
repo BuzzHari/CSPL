@@ -29,6 +29,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [DB-002](notes/DB-002-aries-transaction-recovery.md) | ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging | 1992 | Databases / Transaction Recovery | Queued | Core |
 | [OBS-001](notes/OBS-001-dapper-large-scale-distributed-systems-tracing-infrastructure.md) | Dapper, a Large-Scale Distributed Systems Tracing Infrastructure | 2010 | Observability / Distributed Tracing | Queued | Core |
 | [ML-002](notes/ML-002-deep-residual-learning-for-image-recognition.md) | Deep Residual Learning for Image Recognition | 2016 | Machine Learning / Deep Learning / Computer Vision | Queued | Core |
+| [AI-002](notes/AI-002-computing-machinery-and-intelligence.md) | Computing Machinery and Intelligence | 1950 | Artificial Intelligence / Philosophy of AI | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
