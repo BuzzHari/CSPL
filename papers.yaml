@@ -472,3 +472,23 @@ papers:
   related_papers:
   - ML-001
   - AI-001
+- id: AI-002
+  title: Computing Machinery and Intelligence
+  authors:
+  - Alan M. Turing
+  year: 1950
+  field:
+  - Artificial Intelligence
+  - Philosophy of AI
+  - Machine Intelligence
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Reframed the question of machine intelligence through the imitation game, systematically examined objections to intelligent machines, and anticipated learning machines as a route to complex intelligent behavior.
+  primary_source: https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence
+  date_recommended: '2026-08-19'
+  date_completed: null
+  related_papers:
+  - AI-001
+  - ML-001
+  - ML-002
