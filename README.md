@@ -32,6 +32,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [AI-002](notes/AI-002-computing-machinery-and-intelligence.md) | Computing Machinery and Intelligence | 1950 | Artificial Intelligence / Philosophy of AI | Queued | Core |
 | [CA-002](notes/CA-002-case-for-redundant-arrays-of-inexpensive-disks.md) | A Case for Redundant Arrays of Inexpensive Disks (RAID) | 1988 | Computer Architecture / Storage Systems | Queued | Core |
 | [SEC-002](notes/SEC-002-reflections-on-trusting-trust.md) | Reflections on Trusting Trust | 1984 | Computer Security / Compilers / Software Supply Chain | Queued | Core |
+| [NET-003](notes/NET-003-congestion-avoidance-and-control.md) | Congestion Avoidance and Control | 1988 | Computer Networking / TCP / Congestion Control | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
