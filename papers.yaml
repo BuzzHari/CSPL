@@ -514,3 +514,23 @@ papers:
   - CA-001
   - DB-002
   - DS-002
+- id: SEC-002
+  title: Reflections on Trusting Trust
+  authors:
+  - Ken Thompson
+  year: 1984
+  field:
+  - Computer Security
+  - Compilers
+  - Software Supply Chain
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Demonstrated that a malicious compiler can inject and perpetuate hidden behavior even when the source being inspected is clean, establishing a foundational software-supply-chain attack and exposing the transitive nature of trust in build toolchains.
+  primary_source: https://doi.org/10.1145/358198.358210
+  date_recommended: '2026-08-20'
+  date_completed: null
+  related_papers:
+  - SEC-001
+  - COMP-001
+  - OS-001
