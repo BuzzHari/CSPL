@@ -492,3 +492,25 @@ papers:
   - AI-001
   - ML-001
   - ML-002
+- id: CA-002
+  title: A Case for Redundant Arrays of Inexpensive Disks (RAID)
+  authors:
+  - David A. Patterson
+  - Garth Gibson
+  - Randy H. Katz
+  year: 1988
+  field:
+  - Computer Architecture
+  - Storage Systems
+  - Reliability
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established RAID as a systematic storage architecture, combining parallel arrays of inexpensive disks with redundancy and introducing RAID levels that formalized performance, capacity, and reliability tradeoffs.
+  primary_source: https://www2.eecs.berkeley.edu/Pubs/TechRpts/1987/5853.html
+  date_recommended: '2026-08-20'
+  date_completed: null
+  related_papers:
+  - CA-001
+  - DB-002
+  - DS-002
