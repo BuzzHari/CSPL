@@ -324,3 +324,16 @@ papers:
   date_recommended: '2026-08-20'
   date_completed: null
   related_papers: [NET-002, ARCH-001, EBPF-001, NET-001]
+- id: DS-004
+  title: Paxos Made Simple
+  authors: [Leslie Lamport]
+  year: 2001
+  field: [Distributed Systems, Consensus, Fault Tolerance]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Gave the compact derivation of Paxos, the foundational crash-fault consensus algorithm that uses intersecting majorities and numbered proposals to ensure a distributed system cannot choose conflicting values despite failures and asynchronous communication.
+  primary_source: https://www.microsoft.com/en-us/research/publication/paxos-made-simple/
+  date_recommended: '2026-08-21'
+  date_completed: null
+  related_papers: [DS-003, DS-002, ARCH-001]
