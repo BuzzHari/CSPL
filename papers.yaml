@@ -337,3 +337,16 @@ papers:
   date_recommended: '2026-08-21'
   date_completed: null
   related_papers: [DS-003, DS-002, ARCH-001]
+- id: COMP-002
+  title: Register Allocation via Coloring
+  authors: [Gregory J. Chaitin, Marc A. Auslander, Ashok K. Chandra, John Cocke, Martin E. Hopkins, Peter W. Markstein]
+  year: 1981
+  field: [Compilers, Register Allocation, Graph Algorithms]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Turned global register allocation into a practical graph-coloring problem by modeling simultaneously live values as interfering nodes, establishing a compiler back-end technique that influenced decades of production register allocators.
+  primary_source: https://research.ibm.com/publications/register-allocation-via-coloring
+  date_recommended: '2026-08-22'
+  date_completed: null
+  related_papers: [COMP-001, CA-001, EBPF-001]
