@@ -350,3 +350,16 @@ papers:
   date_recommended: '2026-08-22'
   date_completed: null
   related_papers: [COMP-001, CA-001, EBPF-001]
+- id: OS-003
+  title: The Working Set Model for Program Behavior
+  authors: [Peter J. Denning]
+  year: 1968
+  field: [Operating Systems, Virtual Memory, Resource Management]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the working-set model for locality-aware memory allocation, connecting page-reference behavior, memory demand, scheduling, and thrashing and profoundly shaping virtual-memory management.
+  primary_source: https://denninginstitute.com/pjd/PUBS/WSModel_1968.pdf
+  date_recommended: '2026-08-23'
+  date_completed: null
+  related_papers: [OS-001, OS-002, CA-002]
