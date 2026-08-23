@@ -35,6 +35,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [NET-003](notes/NET-003-congestion-avoidance-and-control.md) | Congestion Avoidance and Control | 1988 | Computer Networking / TCP / Congestion Control | Queued | Core |
 | [DS-004](notes/DS-004-paxos-made-simple.md) | Paxos Made Simple | 2001 | Distributed Systems / Consensus | Queued | Core |
 | [COMP-002](notes/COMP-002-register-allocation-via-coloring.md) | Register Allocation via Coloring | 1981 | Compilers / Register Allocation | Queued | Core |
+| [OS-003](notes/OS-003-working-set-model-for-program-behavior.md) | The Working Set Model for Program Behavior | 1968 | Operating Systems / Virtual Memory | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
