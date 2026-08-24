@@ -363,3 +363,16 @@ papers:
   date_recommended: '2026-08-23'
   date_completed: null
   related_papers: [OS-001, OS-002, CA-002]
+- id: ARCH-003
+  title: Hints for Computer System Design
+  authors: [Butler W. Lampson]
+  year: 1983
+  field: [Software Architecture, Systems Design, Operating Systems]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Distilled enduring systems-design heuristics from experience building major operating systems, networks, personal computers, and applications, including principles around simple interfaces, fast common paths, hints, caching, idempotence, fault handling, and performance-aware abstraction.
+  primary_source: https://www.microsoft.com/en-us/research/publication/hints-for-computer-system-design/
+  date_recommended: '2026-08-24'
+  date_completed: null
+  related_papers: [ARCH-001, ARCH-002, OS-001, OS-002]
