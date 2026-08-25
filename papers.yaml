@@ -376,3 +376,16 @@ papers:
   date_recommended: '2026-08-24'
   date_completed: null
   related_papers: [ARCH-001, ARCH-002, OS-001, OS-002]
+- id: OBS-002
+  title: Dynamic Instrumentation of Production Systems
+  authors: [Bryan M. Cantrill, Michael W. Shapiro, Adam H. Leventhal]
+  year: 2004
+  field: [Observability, Dynamic Instrumentation, Operating Systems, Performance Debugging]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established DTrace as a safe, production-oriented dynamic instrumentation architecture with zero disabled probe effect, unified user/kernel tracing, source-side filtering and aggregation, and a programmable tracing language, strongly influencing modern production observability.
+  primary_source: https://www.usenix.org/conference/2004-usenix-annual-technical-conference/dynamic-instrumentation-production-systems
+  date_recommended: '2026-08-25'
+  date_completed: null
+  related_papers: [OBS-001, EBPF-001, DBG-001, OS-001]
