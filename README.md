@@ -38,6 +38,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [OS-003](notes/OS-003-working-set-model-for-program-behavior.md) | The Working Set Model for Program Behavior | 1968 | Operating Systems / Virtual Memory | Queued | Core |
 | [ARCH-003](notes/ARCH-003-hints-for-computer-system-design.md) | Hints for Computer System Design | 1983 | Software Architecture / Systems Design | Queued | Core |
 | [OBS-002](notes/OBS-002-dynamic-instrumentation-of-production-systems.md) | Dynamic Instrumentation of Production Systems | 2004 | Observability / Dynamic Instrumentation | Queued | Core |
+| [ALG-002](notes/ALG-002-space-time-trade-offs-hash-coding-allowable-errors.md) | Space/Time Trade-offs in Hash Coding with Allowable Errors | 1970 | Algorithms / Probabilistic Data Structures | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
