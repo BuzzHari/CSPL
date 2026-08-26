@@ -389,3 +389,16 @@ papers:
   date_recommended: '2026-08-25'
   date_completed: null
   related_papers: [OBS-001, EBPF-001, DBG-001, OS-001]
+- id: ALG-002
+  title: Space/Time Trade-offs in Hash Coding with Allowable Errors
+  authors: [Burton H. Bloom]
+  year: 1970
+  field: [Algorithms, Probabilistic Data Structures, Hashing]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the Bloom filter, a compact probabilistic set-membership data structure that trades a tunable false-positive rate for dramatically reduced memory and became a standard systems primitive across databases, storage, networking, and distributed systems.
+  primary_source: https://dl.acm.org/doi/10.1145/362686.362692
+  date_recommended: '2026-08-26'
+  date_completed: null
+  related_papers: [ALG-001, DB-001, DS-002]
