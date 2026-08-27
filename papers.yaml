@@ -402,3 +402,16 @@ papers:
   date_recommended: '2026-08-26'
   date_completed: null
   related_papers: [ALG-001, DB-001, DS-002]
+- id: DBG-002
+  title: Simplifying and Isolating Failure-Inducing Input
+  authors: [Andreas Zeller, Ralf Hildebrandt]
+  year: 2002
+  field: [Debugging, Automated Debugging, Software Testing]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established Delta Debugging as a practical automated method for reducing failure-inducing test cases and isolating the difference between passing and failing configurations, turning repeated experimental debugging into a systematic search procedure.
+  primary_source: https://www.st.cs.uni-saarland.de/papers/tse2002/
+  date_recommended: '2026-08-27'
+  date_completed: null
+  related_papers: [DBG-001, OBS-002, ALG-001]
