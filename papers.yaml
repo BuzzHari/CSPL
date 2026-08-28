@@ -324,3 +324,107 @@ papers:
   date_recommended: '2026-08-20'
   date_completed: null
   related_papers: [NET-002, ARCH-001, EBPF-001, NET-001]
+- id: DS-004
+  title: Paxos Made Simple
+  authors: [Leslie Lamport]
+  year: 2001
+  field: [Distributed Systems, Consensus, Fault Tolerance]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Gave the compact derivation of Paxos, the foundational crash-fault consensus algorithm that uses intersecting majorities and numbered proposals to ensure a distributed system cannot choose conflicting values despite failures and asynchronous communication.
+  primary_source: https://www.microsoft.com/en-us/research/publication/paxos-made-simple/
+  date_recommended: '2026-08-21'
+  date_completed: null
+  related_papers: [DS-003, DS-002, ARCH-001]
+- id: COMP-002
+  title: Register Allocation via Coloring
+  authors: [Gregory J. Chaitin, Marc A. Auslander, Ashok K. Chandra, John Cocke, Martin E. Hopkins, Peter W. Markstein]
+  year: 1981
+  field: [Compilers, Register Allocation, Graph Algorithms]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Turned global register allocation into a practical graph-coloring problem by modeling simultaneously live values as interfering nodes, establishing a compiler back-end technique that influenced decades of production register allocators.
+  primary_source: https://research.ibm.com/publications/register-allocation-via-coloring
+  date_recommended: '2026-08-22'
+  date_completed: null
+  related_papers: [COMP-001, CA-001, EBPF-001]
+- id: OS-003
+  title: The Working Set Model for Program Behavior
+  authors: [Peter J. Denning]
+  year: 1968
+  field: [Operating Systems, Virtual Memory, Resource Management]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the working-set model for locality-aware memory allocation, connecting page-reference behavior, memory demand, scheduling, and thrashing and profoundly shaping virtual-memory management.
+  primary_source: https://denninginstitute.com/pjd/PUBS/WSModel_1968.pdf
+  date_recommended: '2026-08-23'
+  date_completed: null
+  related_papers: [OS-001, OS-002, CA-002]
+- id: ARCH-003
+  title: Hints for Computer System Design
+  authors: [Butler W. Lampson]
+  year: 1983
+  field: [Software Architecture, Systems Design, Operating Systems]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Distilled enduring systems-design heuristics from experience building major operating systems, networks, personal computers, and applications, including principles around simple interfaces, fast common paths, hints, caching, idempotence, fault handling, and performance-aware abstraction.
+  primary_source: https://www.microsoft.com/en-us/research/publication/hints-for-computer-system-design/
+  date_recommended: '2026-08-24'
+  date_completed: null
+  related_papers: [ARCH-001, ARCH-002, OS-001, OS-002]
+- id: OBS-002
+  title: Dynamic Instrumentation of Production Systems
+  authors: [Bryan M. Cantrill, Michael W. Shapiro, Adam H. Leventhal]
+  year: 2004
+  field: [Observability, Dynamic Instrumentation, Operating Systems, Performance Debugging]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established DTrace as a safe, production-oriented dynamic instrumentation architecture with zero disabled probe effect, unified user/kernel tracing, source-side filtering and aggregation, and a programmable tracing language, strongly influencing modern production observability.
+  primary_source: https://www.usenix.org/conference/2004-usenix-annual-technical-conference/dynamic-instrumentation-production-systems
+  date_recommended: '2026-08-25'
+  date_completed: null
+  related_papers: [OBS-001, EBPF-001, DBG-001, OS-001]
+- id: ALG-002
+  title: Space/Time Trade-offs in Hash Coding with Allowable Errors
+  authors: [Burton H. Bloom]
+  year: 1970
+  field: [Algorithms, Probabilistic Data Structures, Hashing]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the Bloom filter, a compact probabilistic set-membership data structure that trades a tunable false-positive rate for dramatically reduced memory and became a standard systems primitive across databases, storage, networking, and distributed systems.
+  primary_source: https://dl.acm.org/doi/10.1145/362686.362692
+  date_recommended: '2026-08-26'
+  date_completed: null
+  related_papers: [ALG-001, DB-001, DS-002]
+- id: DBG-002
+  title: Simplifying and Isolating Failure-Inducing Input
+  authors: [Andreas Zeller, Ralf Hildebrandt]
+  year: 2002
+  field: [Debugging, Automated Debugging, Software Testing]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established Delta Debugging as a practical automated method for reducing failure-inducing test cases and isolating the difference between passing and failing configurations, turning repeated experimental debugging into a systematic search procedure.
+  primary_source: https://www.st.cs.uni-saarland.de/papers/tse2002/
+  date_recommended: '2026-08-27'
+  date_completed: null
+  related_papers: [DBG-001, OBS-002, ALG-001]
+- id: EBPF-002
+  title: 'The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel'
+  authors: [Toke Høiland-Jørgensen, Jesper Dangaard Brouer, Daniel Borkmann, John Fastabend, Tom Herbert, David Ahern, David Miller]
+  year: 2018
+  field: [eBPF, XDP, Computer Networking, Operating Systems, Packet Processing]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Presented the first complete architecture and evaluation of Linux XDP, combining an early driver-level packet-processing hook with verified and JIT-compiled eBPF programs, BPF maps, and Linux networking integration to enable high-speed programmable packet processing without fully bypassing the kernel.
+  primary_source: https://doi.org/10.1145/3281411.3281443
+  date_recommended: '2026-08-28'
+  date_completed: null
+  related_papers: [EBPF-001, NET-001, NET-003, OBS-002, CA-001]
