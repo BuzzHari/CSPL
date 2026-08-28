@@ -415,3 +415,16 @@ papers:
   date_recommended: '2026-08-27'
   date_completed: null
   related_papers: [DBG-001, OBS-002, ALG-001]
+- id: EBPF-002
+  title: 'The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel'
+  authors: [Toke Høiland-Jørgensen, Jesper Dangaard Brouer, Daniel Borkmann, John Fastabend, Tom Herbert, David Ahern, David Miller]
+  year: 2018
+  field: [eBPF, XDP, Computer Networking, Operating Systems, Packet Processing]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Presented the first complete architecture and evaluation of Linux XDP, combining an early driver-level packet-processing hook with verified and JIT-compiled eBPF programs, BPF maps, and Linux networking integration to enable high-speed programmable packet processing without fully bypassing the kernel.
+  primary_source: https://doi.org/10.1145/3281411.3281443
+  date_recommended: '2026-08-28'
+  date_completed: null
+  related_papers: [EBPF-001, NET-001, NET-003, OBS-002, CA-001]
