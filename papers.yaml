@@ -441,3 +441,16 @@ papers:
   date_recommended: '2026-08-29'
   date_completed: null
   related_papers: [DB-001, DB-002, ALG-002]
+- id: ML-003
+  title: Learning representations by back-propagating errors
+  authors: [David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams]
+  year: 1986
+  field: [Machine Learning, Neural Networks, Representation Learning]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established the canonical modern presentation of back-propagation for training multilayer neural networks, showing how error derivatives can assign credit through hidden layers so useful internal representations are learned automatically.
+  primary_source: https://www.nature.com/articles/323533a0
+  date_recommended: '2026-08-30'
+  date_completed: null
+  related_papers: [ML-001, ML-002, AI-001]
