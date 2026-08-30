@@ -42,6 +42,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [DBG-002](notes/DBG-002-simplifying-isolating-failure-inducing-input.md) | Simplifying and Isolating Failure-Inducing Input | 2002 | Debugging / Automated Debugging | Queued | Core |
 | [EBPF-002](notes/EBPF-002-express-data-path.md) | The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel | 2018 | eBPF / XDP / Packet Processing | Queued | Core |
 | [DB-003](notes/DB-003-access-path-selection-relational-database-management-system.md) | Access Path Selection in a Relational Database Management System | 1979 | Databases / Query Optimization | Queued | Core |
+| [ML-003](notes/ML-003-learning-representations-by-back-propagating-errors.md) | Learning representations by back-propagating errors | 1986 | Machine Learning / Neural Networks | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
