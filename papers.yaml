@@ -454,3 +454,29 @@ papers:
   date_recommended: '2026-08-30'
   date_completed: null
   related_papers: [ML-001, ML-002, AI-001]
+- id: AI-003
+  title: Programs with Common Sense
+  authors: [John McCarthy]
+  year: 1959
+  field: [Artificial Intelligence, Knowledge Representation, Automated Reasoning]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Proposed the Advice Taker and established a foundational program for symbolic AI in which knowledge is represented declaratively and a general inference mechanism derives consequences and actions.
+  primary_source: https://www-formal.stanford.edu/jmc/mcc59.html
+  date_recommended: '2026-08-31'
+  date_completed: null
+  related_papers: [AI-001, AI-002, ARCH-002]
+- id: OS-004
+  title: 'Exokernel: An Operating System Architecture for Application-Level Resource Management'
+  authors: [Dawson R. Engler, M. Frans Kaashoek, James O'Toole Jr.]
+  year: 1995
+  field: [Operating Systems, Kernel Architecture, Resource Management]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established the exokernel architecture, separating resource protection from resource management so a minimal kernel can securely multiplex hardware while untrusted library operating systems implement application-specific abstractions and policies.
+  primary_source: https://pdos.csail.mit.edu/6.828/2008/readings/engler95exokernel.pdf
+  date_recommended: '2026-09-01'
+  date_completed: null
+  related_papers: [OS-001, OS-002, OS-003, EBPF-001, ARCH-001]
