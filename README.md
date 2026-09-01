@@ -43,6 +43,8 @@ The library prioritizes papers that materially changed research, industry practi
 | [EBPF-002](notes/EBPF-002-express-data-path.md) | The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel | 2018 | eBPF / XDP / Packet Processing | Queued | Core |
 | [DB-003](notes/DB-003-access-path-selection-relational-database-management-system.md) | Access Path Selection in a Relational Database Management System | 1979 | Databases / Query Optimization | Queued | Core |
 | [ML-003](notes/ML-003-learning-representations-by-back-propagating-errors.md) | Learning representations by back-propagating errors | 1986 | Machine Learning / Neural Networks | Queued | Core |
+| [AI-003](notes/AI-003-programs-with-common-sense.md) | Programs with Common Sense | 1959 | Artificial Intelligence / Knowledge Representation | Queued | Core |
+| [OS-004](notes/OS-004-exokernel-application-level-resource-management.md) | Exokernel: An Operating System Architecture for Application-Level Resource Management | 1995 | Operating Systems / Kernel Architecture | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
