@@ -493,3 +493,16 @@ papers:
   date_recommended: '2026-09-02'
   date_completed: null
   related_papers: [NET-002, NET-003, ARCH-001, DS-003]
+- id: CA-003
+  title: An Efficient Algorithm for Exploiting Multiple Arithmetic Units
+  authors: [R. M. Tomasulo]
+  year: 1967
+  field: [Computer Architecture, Out-of-Order Execution, Dynamic Scheduling]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Introduced the dynamic scheduling mechanisms now known as Tomasulo's algorithm, including reservation stations, register renaming through tags, and common-data-bus result broadcasting, laying the conceptual foundation for modern out-of-order superscalar processors.
+  primary_source: https://doi.org/10.1147/rd.111.0025
+  date_recommended: '2026-09-03'
+  date_completed: null
+  related_papers: [CA-001, COMP-002, OS-003]
