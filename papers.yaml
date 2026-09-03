@@ -480,3 +480,16 @@ papers:
   date_recommended: '2026-09-01'
   date_completed: null
   related_papers: [OS-001, OS-002, OS-003, EBPF-001, ARCH-001]
+- id: NET-004
+  title: The Design Philosophy of the DARPA Internet Protocols
+  authors: [David D. Clark]
+  year: 1988
+  field: [Computer Networking, Internet Architecture, Protocol Design]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Explained the ordered design goals behind TCP/IP, including survivability, heterogeneous networks, endpoint-held state, and fate-sharing, making explicit why the Internet architecture took its enduring datagram-based form.
+  primary_source: https://groups.csail.mit.edu/ana/People/DDC/lbook-arch-V1.pdf
+  date_recommended: '2026-09-02'
+  date_completed: null
+  related_papers: [NET-002, NET-003, ARCH-001, DS-003]
