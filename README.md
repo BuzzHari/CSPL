@@ -45,6 +45,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [ML-003](notes/ML-003-learning-representations-by-back-propagating-errors.md) | Learning representations by back-propagating errors | 1986 | Machine Learning / Neural Networks | Queued | Core |
 | [AI-003](notes/AI-003-programs-with-common-sense.md) | Programs with Common Sense | 1959 | Artificial Intelligence / Knowledge Representation | Queued | Core |
 | [OS-004](notes/OS-004-exokernel-application-level-resource-management.md) | Exokernel: An Operating System Architecture for Application-Level Resource Management | 1995 | Operating Systems / Kernel Architecture | Queued | Core |
+| [NET-004](notes/NET-004-design-philosophy-darpa-internet-protocols.md) | The Design Philosophy of the DARPA Internet Protocols | 1988 | Computer Networking / Internet Architecture | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
