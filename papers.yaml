@@ -506,3 +506,16 @@ papers:
   date_recommended: '2026-09-03'
   date_completed: null
   related_papers: [CA-001, COMP-002, OS-003]
+- id: ALG-003
+  title: A note on two problems in connexion with graphs
+  authors: [E. W. Dijkstra]
+  year: 1959
+  field: [Algorithms, Graph Algorithms, Shortest Paths]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Presented the shortest-path method now known as Dijkstra's algorithm, establishing a canonical greedy approach to weighted graph search that became foundational in routing, navigation, network optimization, and algorithm design.
+  primary_source: https://ir.cwi.nl/pub/9256
+  date_recommended: '2026-09-05'
+  date_completed: null
+  related_papers: [ALG-001, ALG-002, NET-002, NET-004]
