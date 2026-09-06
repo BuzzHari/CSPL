@@ -519,3 +519,16 @@ papers:
   date_recommended: '2026-09-05'
   date_completed: null
   related_papers: [ALG-001, ALG-002, NET-002, NET-004]
+- id: DS-005
+  title: The Byzantine Generals Problem
+  authors: [Leslie Lamport, Robert Shostak, Marshall Pease]
+  year: 1982
+  field: [Distributed Systems, Byzantine Fault Tolerance, Consensus, Fault Tolerance]
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Formalized Byzantine failures, proved the fundamental resilience bound for agreement with unauthenticated messages, and showed how authentication changes what distributed agreement can tolerate, establishing the foundation of Byzantine fault-tolerant systems.
+  primary_source: https://www.microsoft.com/en-us/research/publication/byzantine-generals-problem/
+  date_recommended: '2026-09-06'
+  date_completed: null
+  related_papers: [DS-003, DS-004, SEC-001, ARCH-001]
