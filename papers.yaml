@@ -727,7 +727,7 @@ papers:
   priority: Core
   inclusion_reason: Daily CS Paper
   why_it_matters: Established practical cost-based relational query optimization in System R, introducing selectivity and cardinality estimation, access-path costing, join-order search, and preservation of interesting orders that became foundational to production SQL optimizers.
-  primary_source: https://research.ibm.com/publications/access-path-selection-relational-database-management-system
+  primary_source: https://research.ibm.com/publications/access-path-selection-in-a-relational-database-management-system
   date_recommended: '2026-08-29'
   date_completed: null
   related_papers:
