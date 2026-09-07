@@ -49,6 +49,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [CA-003](notes/CA-003-efficient-algorithm-exploiting-multiple-arithmetic-units.md) | An Efficient Algorithm for Exploiting Multiple Arithmetic Units | 1967 | Computer Architecture / Out-of-Order Execution | Queued | Core |
 | [ALG-003](notes/ALG-003-note-on-two-problems-in-connexion-with-graphs.md) | A note on two problems in connexion with graphs | 1959 | Algorithms / Graph Algorithms / Shortest Paths | Queued | Core |
 | [DS-005](notes/DS-005-byzantine-generals-problem.md) | The Byzantine Generals Problem | 1982 | Distributed Systems / Byzantine Fault Tolerance | Queued | Core |
+| [COMP-003](notes/COMP-003-unified-approach-global-program-optimization.md) | A Unified Approach to Global Program Optimization | 1973 | Compilers / Data-Flow Analysis | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 

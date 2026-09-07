@@ -1,9 +1,17 @@
 papers:
 - id: NET-001
   title: The Click Modular Router
-  authors: [Eddie Kohler, Robert Morris, Benjie Chen, John Jannotti, M. Frans Kaashoek]
+  authors:
+  - Eddie Kohler
+  - Robert Morris
+  - Benjie Chen
+  - John Jannotti
+  - M. Frans Kaashoek
   year: 2000
-  field: [Computer Networking, Operating Systems, Packet Processing]
+  field:
+  - Computer Networking
+  - Operating Systems
+  - Packet Processing
   status: Reading
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -14,9 +22,13 @@ papers:
   related_papers: []
 - id: DS-001
   title: 'MapReduce: Simplified Data Processing on Large Clusters'
-  authors: [Jeffrey Dean, Sanjay Ghemawat]
+  authors:
+  - Jeffrey Dean
+  - Sanjay Ghemawat
   year: 2004
-  field: [Distributed Systems, Large-Scale Data Processing]
+  field:
+  - Distributed Systems
+  - Large-Scale Data Processing
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -24,12 +36,18 @@ papers:
   primary_source: https://research.google.com/archive/mapreduce-osdi04.pdf
   date_recommended: '2026-07-30'
   date_completed: null
-  related_papers: [DS-002]
+  related_papers:
+  - DS-002
 - id: DS-002
   title: The Google File System
-  authors: [Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung]
+  authors:
+  - Sanjay Ghemawat
+  - Howard Gobioff
+  - Shun-Tak Leung
   year: 2003
-  field: [Distributed Systems, Distributed Storage]
+  field:
+  - Distributed Systems
+  - Distributed Storage
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -37,12 +55,24 @@ papers:
   primary_source: https://research.google/pubs/the-google-file-system/
   date_recommended: '2026-07-31'
   date_completed: null
-  related_papers: [DS-001]
+  related_papers:
+  - DS-001
 - id: AI-001
   title: Attention Is All You Need
-  authors: [Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin]
+  authors:
+  - Ashish Vaswani
+  - Noam Shazeer
+  - Niki Parmar
+  - Jakob Uszkoreit
+  - Llion Jones
+  - Aidan N. Gomez
+  - Łukasz Kaiser
+  - Illia Polosukhin
   year: 2017
-  field: [Artificial Intelligence, Machine Learning, Natural Language Processing]
+  field:
+  - Artificial Intelligence
+  - Machine Learning
+  - Natural Language Processing
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -53,9 +83,13 @@ papers:
   related_papers: []
 - id: OS-001
   title: The UNIX Time-Sharing System
-  authors: [Dennis M. Ritchie, Ken Thompson]
+  authors:
+  - Dennis M. Ritchie
+  - Ken Thompson
   year: 1974
-  field: [Operating Systems, Systems Software]
+  field:
+  - Operating Systems
+  - Systems Software
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -63,12 +97,16 @@ papers:
   primary_source: https://www.nokia.com/bell-labs/publications-and-media/publications/the-unix-time-sharing-system/
   date_recommended: '2026-08-01'
   date_completed: null
-  related_papers: [NET-001]
+  related_papers:
+  - NET-001
 - id: DB-001
   title: A Relational Model of Data for Large Shared Data Banks
-  authors: [E. F. Codd]
+  authors:
+  - E. F. Codd
   year: 1970
-  field: [Databases, Data Models]
+  field:
+  - Databases
+  - Data Models
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -79,9 +117,15 @@ papers:
   related_papers: []
 - id: ARCH-001
   title: End-to-End Arguments in System Design
-  authors: [Jerome H. Saltzer, David P. Reed, David D. Clark]
+  authors:
+  - Jerome H. Saltzer
+  - David P. Reed
+  - David D. Clark
   year: 1984
-  field: [Systems Architecture, Computer Networking, Distributed Systems]
+  field:
+  - Systems Architecture
+  - Computer Networking
+  - Distributed Systems
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -89,12 +133,23 @@ papers:
   primary_source: https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
   date_recommended: '2026-08-04'
   date_completed: null
-  related_papers: [NET-001, DS-001, DS-002]
+  related_papers:
+  - NET-001
+  - DS-001
+  - DS-002
 - id: COMP-001
   title: Efficiently Computing Static Single Assignment Form and the Control Dependence Graph
-  authors: [Ron Cytron, Jeanne Ferrante, Barry K. Rosen, Mark N. Wegman, F. Kenneth Zadeck]
+  authors:
+  - Ron Cytron
+  - Jeanne Ferrante
+  - Barry K. Rosen
+  - Mark N. Wegman
+  - F. Kenneth Zadeck
   year: 1991
-  field: [Compilers, Program Analysis, Intermediate Representations]
+  field:
+  - Compilers
+  - Program Analysis
+  - Intermediate Representations
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -102,12 +157,19 @@ papers:
   primary_source: https://research.ibm.com/publications/efficiently-computing-static-single-assignment-form-and-the-control-dependence-graph
   date_recommended: '2026-08-05'
   date_completed: null
-  related_papers: [NET-001, OS-001]
+  related_papers:
+  - NET-001
+  - OS-001
 - id: SEC-001
   title: The Protection of Information in Computer Systems
-  authors: [Jerome H. Saltzer, Michael D. Schroeder]
+  authors:
+  - Jerome H. Saltzer
+  - Michael D. Schroeder
   year: 1975
-  field: [Computer Security, Operating Systems, Protection Architecture]
+  field:
+  - Computer Security
+  - Operating Systems
+  - Protection Architecture
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -115,12 +177,19 @@ papers:
   primary_source: https://web.mit.edu/Saltzer/www/publications/protection/
   date_recommended: '2026-08-06'
   date_completed: null
-  related_papers: [OS-001, ARCH-001]
+  related_papers:
+  - OS-001
+  - ARCH-001
 - id: CA-001
   title: 'RISC I: A Reduced Instruction Set VLSI Computer'
-  authors: [David A. Patterson, Carlo H. Séquin]
+  authors:
+  - David A. Patterson
+  - Carlo H. Séquin
   year: 1981
-  field: [Computer Architecture, Instruction Set Architecture, VLSI]
+  field:
+  - Computer Architecture
+  - Instruction Set Architecture
+  - VLSI
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -128,12 +197,20 @@ papers:
   primary_source: https://www2.eecs.berkeley.edu/Pubs/Faculty/sequin.html
   date_recommended: '2026-08-07'
   date_completed: null
-  related_papers: [COMP-001, OS-001]
+  related_papers:
+  - COMP-001
+  - OS-001
 - id: EBPF-001
   title: 'The BSD Packet Filter: A New Architecture for User-level Packet Capture'
-  authors: [Steven McCanne, Van Jacobson]
+  authors:
+  - Steven McCanne
+  - Van Jacobson
   year: 1993
-  field: [eBPF, Packet Filtering, Operating Systems, Computer Networking]
+  field:
+  - eBPF
+  - Packet Filtering
+  - Operating Systems
+  - Computer Networking
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -141,12 +218,20 @@ papers:
   primary_source: https://www.usenix.org/conference/usenix-winter-1993-conference/bsd-packet-filter-new-architecture-user-level-packet
   date_recommended: '2026-08-08'
   date_completed: null
-  related_papers: [NET-001, OS-001, COMP-001, CA-001]
+  related_papers:
+  - NET-001
+  - OS-001
+  - COMP-001
+  - CA-001
 - id: ALG-001
   title: Quicksort
-  authors: [C. A. R. Hoare]
+  authors:
+  - C. A. R. Hoare
   year: 1962
-  field: [Algorithms, Sorting, Divide and Conquer]
+  field:
+  - Algorithms
+  - Sorting
+  - Divide and Conquer
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -154,12 +239,23 @@ papers:
   primary_source: https://academic.oup.com/comjnl/article/5/1/10/395338
   date_recommended: '2026-08-09'
   date_completed: null
-  related_papers: [CA-001, COMP-001]
+  related_papers:
+  - CA-001
+  - COMP-001
 - id: DBG-001
   title: 'Eraser: A Dynamic Data Race Detector for Multithreaded Programs'
-  authors: [Stefan Savage, Michael Burrows, Greg Nelson, Patrick Sobalvarro, Thomas Anderson]
+  authors:
+  - Stefan Savage
+  - Michael Burrows
+  - Greg Nelson
+  - Patrick Sobalvarro
+  - Thomas Anderson
   year: 1997
-  field: [Debugging, Concurrency, Dynamic Analysis, Operating Systems]
+  field:
+  - Debugging
+  - Concurrency
+  - Dynamic Analysis
+  - Operating Systems
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -167,12 +263,19 @@ papers:
   primary_source: https://homes.cs.washington.edu/~tom/pubs/eraser.html
   date_recommended: '2026-08-10'
   date_completed: null
-  related_papers: [OS-001, SEC-001, COMP-001]
+  related_papers:
+  - OS-001
+  - SEC-001
+  - COMP-001
 - id: ARCH-002
   title: On the Criteria To Be Used in Decomposing Systems into Modules
-  authors: [D. L. Parnas]
+  authors:
+  - D. L. Parnas
   year: 1972
-  field: [Software Architecture, Modularity, Software Engineering]
+  field:
+  - Software Architecture
+  - Modularity
+  - Software Engineering
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -180,12 +283,21 @@ papers:
   primary_source: https://doi.org/10.1145/361598.361623
   date_recommended: '2026-08-11'
   date_completed: null
-  related_papers: [ARCH-001, OS-001, COMP-001]
+  related_papers:
+  - ARCH-001
+  - OS-001
+  - COMP-001
 - id: ML-001
   title: ImageNet Classification with Deep Convolutional Neural Networks
-  authors: [Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton]
+  authors:
+  - Alex Krizhevsky
+  - Ilya Sutskever
+  - Geoffrey E. Hinton
   year: 2012
-  field: [Machine Learning, Deep Learning, Computer Vision]
+  field:
+  - Machine Learning
+  - Deep Learning
+  - Computer Vision
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -193,12 +305,20 @@ papers:
   primary_source: https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
   date_recommended: '2026-08-12'
   date_completed: null
-  related_papers: [AI-001, CA-001, COMP-001]
+  related_papers:
+  - AI-001
+  - CA-001
+  - COMP-001
 - id: NET-002
   title: A Protocol for Packet Network Intercommunication
-  authors: [Vinton G. Cerf, Robert E. Kahn]
+  authors:
+  - Vinton G. Cerf
+  - Robert E. Kahn
   year: 1974
-  field: [Computer Networking, Internet Architecture, Transport Protocols]
+  field:
+  - Computer Networking
+  - Internet Architecture
+  - Transport Protocols
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -206,12 +326,20 @@ papers:
   primary_source: https://doi.org/10.1109/TCOM.1974.1092259
   date_recommended: '2026-08-13'
   date_completed: null
-  related_papers: [NET-001, ARCH-001, EBPF-001, OS-001]
+  related_papers:
+  - NET-001
+  - ARCH-001
+  - EBPF-001
+  - OS-001
 - id: DS-003
   title: Time, Clocks, and the Ordering of Events in a Distributed System
-  authors: [Leslie Lamport]
+  authors:
+  - Leslie Lamport
   year: 1978
-  field: [Distributed Systems, Logical Clocks, Causality]
+  field:
+  - Distributed Systems
+  - Logical Clocks
+  - Causality
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -219,12 +347,20 @@ papers:
   primary_source: https://lamport.azurewebsites.net/pubs/time-clocks.pdf
   date_recommended: '2026-08-14'
   date_completed: null
-  related_papers: [DS-001, DS-002, ARCH-001, NET-002]
+  related_papers:
+  - DS-001
+  - DS-002
+  - ARCH-001
+  - NET-002
 - id: OS-002
   title: The Structure of the “THE”-Multiprogramming System
-  authors: [Edsger W. Dijkstra]
+  authors:
+  - Edsger W. Dijkstra
   year: 1968
-  field: [Operating Systems, Layered Architecture, Concurrency]
+  field:
+  - Operating Systems
+  - Layered Architecture
+  - Concurrency
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -232,12 +368,24 @@ papers:
   primary_source: https://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD196.html
   date_recommended: '2026-08-15'
   date_completed: null
-  related_papers: [OS-001, ARCH-002, SEC-001, COMP-001]
+  related_papers:
+  - OS-001
+  - ARCH-002
+  - SEC-001
+  - COMP-001
 - id: DB-002
   title: 'ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging'
-  authors: [C. Mohan, Don Haderle, Bruce Lindsay, Hamid Pirahesh, Peter Schwarz]
+  authors:
+  - C. Mohan
+  - Don Haderle
+  - Bruce Lindsay
+  - Hamid Pirahesh
+  - Peter Schwarz
   year: 1992
-  field: [Databases, Transaction Recovery, Write-Ahead Logging]
+  field:
+  - Databases
+  - Transaction Recovery
+  - Write-Ahead Logging
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -245,12 +393,25 @@ papers:
   primary_source: https://research.ibm.com/publications/aries-a-transaction-recovery-method-supporting-fine-granularity-locking-and-partial-rollbacks-using-write-ahead-logging
   date_recommended: '2026-08-16'
   date_completed: null
-  related_papers: [DB-001, DS-002]
+  related_papers:
+  - DB-001
+  - DS-002
 - id: OBS-001
   title: Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
-  authors: [Benjamin H. Sigelman, Luiz André Barroso, Mike Burrows, Pat Stephenson, Manoj Plakal, Donald Beaver, Saul Jaspan, Chandan Shanbhag]
+  authors:
+  - Benjamin H. Sigelman
+  - Luiz André Barroso
+  - Mike Burrows
+  - Pat Stephenson
+  - Manoj Plakal
+  - Donald Beaver
+  - Saul Jaspan
+  - Chandan Shanbhag
   year: 2010
-  field: [Observability, Distributed Tracing, Distributed Systems]
+  field:
+  - Observability
+  - Distributed Tracing
+  - Distributed Systems
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -258,12 +419,23 @@ papers:
   primary_source: https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/
   date_recommended: '2026-08-17'
   date_completed: null
-  related_papers: [DS-003, ARCH-001, DBG-001, EBPF-001]
+  related_papers:
+  - DS-003
+  - ARCH-001
+  - DBG-001
+  - EBPF-001
 - id: ML-002
   title: Deep Residual Learning for Image Recognition
-  authors: [Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun]
+  authors:
+  - Kaiming He
+  - Xiangyu Zhang
+  - Shaoqing Ren
+  - Jian Sun
   year: 2016
-  field: [Machine Learning, Deep Learning, Computer Vision]
+  field:
+  - Machine Learning
+  - Deep Learning
+  - Computer Vision
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -271,12 +443,18 @@ papers:
   primary_source: https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html
   date_recommended: '2026-08-18'
   date_completed: null
-  related_papers: [ML-001, AI-001]
+  related_papers:
+  - ML-001
+  - AI-001
 - id: AI-002
   title: Computing Machinery and Intelligence
-  authors: [Alan M. Turing]
+  authors:
+  - Alan M. Turing
   year: 1950
-  field: [Artificial Intelligence, Philosophy of AI, Machine Intelligence]
+  field:
+  - Artificial Intelligence
+  - Philosophy of AI
+  - Machine Intelligence
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -284,12 +462,21 @@ papers:
   primary_source: https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence
   date_recommended: '2026-08-19'
   date_completed: null
-  related_papers: [AI-001, ML-001, ML-002]
+  related_papers:
+  - AI-001
+  - ML-001
+  - ML-002
 - id: CA-002
   title: A Case for Redundant Arrays of Inexpensive Disks (RAID)
-  authors: [David A. Patterson, Garth Gibson, Randy H. Katz]
+  authors:
+  - David A. Patterson
+  - Garth Gibson
+  - Randy H. Katz
   year: 1988
-  field: [Computer Architecture, Storage Systems, Reliability]
+  field:
+  - Computer Architecture
+  - Storage Systems
+  - Reliability
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -297,12 +484,19 @@ papers:
   primary_source: https://www2.eecs.berkeley.edu/Pubs/TechRpts/1987/5853.html
   date_recommended: '2026-08-20'
   date_completed: null
-  related_papers: [CA-001, DB-002, DS-002]
+  related_papers:
+  - CA-001
+  - DB-002
+  - DS-002
 - id: SEC-002
   title: Reflections on Trusting Trust
-  authors: [Ken Thompson]
+  authors:
+  - Ken Thompson
   year: 1984
-  field: [Computer Security, Compilers, Software Supply Chain]
+  field:
+  - Computer Security
+  - Compilers
+  - Software Supply Chain
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -310,12 +504,19 @@ papers:
   primary_source: https://doi.org/10.1145/358198.358210
   date_recommended: '2026-08-20'
   date_completed: null
-  related_papers: [SEC-001, COMP-001, OS-001]
+  related_papers:
+  - SEC-001
+  - COMP-001
+  - OS-001
 - id: NET-003
   title: Congestion Avoidance and Control
-  authors: [Van Jacobson]
+  authors:
+  - Van Jacobson
   year: 1988
-  field: [Computer Networking, TCP, Congestion Control]
+  field:
+  - Computer Networking
+  - TCP
+  - Congestion Control
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -323,12 +524,20 @@ papers:
   primary_source: https://ee.lbl.gov/www/papers/congavoid.pdf
   date_recommended: '2026-08-20'
   date_completed: null
-  related_papers: [NET-002, ARCH-001, EBPF-001, NET-001]
+  related_papers:
+  - NET-002
+  - ARCH-001
+  - EBPF-001
+  - NET-001
 - id: DS-004
   title: Paxos Made Simple
-  authors: [Leslie Lamport]
+  authors:
+  - Leslie Lamport
   year: 2001
-  field: [Distributed Systems, Consensus, Fault Tolerance]
+  field:
+  - Distributed Systems
+  - Consensus
+  - Fault Tolerance
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -336,12 +545,24 @@ papers:
   primary_source: https://www.microsoft.com/en-us/research/publication/paxos-made-simple/
   date_recommended: '2026-08-21'
   date_completed: null
-  related_papers: [DS-003, DS-002, ARCH-001]
+  related_papers:
+  - DS-003
+  - DS-002
+  - ARCH-001
 - id: COMP-002
   title: Register Allocation via Coloring
-  authors: [Gregory J. Chaitin, Marc A. Auslander, Ashok K. Chandra, John Cocke, Martin E. Hopkins, Peter W. Markstein]
+  authors:
+  - Gregory J. Chaitin
+  - Marc A. Auslander
+  - Ashok K. Chandra
+  - John Cocke
+  - Martin E. Hopkins
+  - Peter W. Markstein
   year: 1981
-  field: [Compilers, Register Allocation, Graph Algorithms]
+  field:
+  - Compilers
+  - Register Allocation
+  - Graph Algorithms
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -349,12 +570,19 @@ papers:
   primary_source: https://research.ibm.com/publications/register-allocation-via-coloring
   date_recommended: '2026-08-22'
   date_completed: null
-  related_papers: [COMP-001, CA-001, EBPF-001]
+  related_papers:
+  - COMP-001
+  - CA-001
+  - EBPF-001
 - id: OS-003
   title: The Working Set Model for Program Behavior
-  authors: [Peter J. Denning]
+  authors:
+  - Peter J. Denning
   year: 1968
-  field: [Operating Systems, Virtual Memory, Resource Management]
+  field:
+  - Operating Systems
+  - Virtual Memory
+  - Resource Management
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -362,12 +590,19 @@ papers:
   primary_source: https://denninginstitute.com/pjd/PUBS/WSModel_1968.pdf
   date_recommended: '2026-08-23'
   date_completed: null
-  related_papers: [OS-001, OS-002, CA-002]
+  related_papers:
+  - OS-001
+  - OS-002
+  - CA-002
 - id: ARCH-003
   title: Hints for Computer System Design
-  authors: [Butler W. Lampson]
+  authors:
+  - Butler W. Lampson
   year: 1983
-  field: [Software Architecture, Systems Design, Operating Systems]
+  field:
+  - Software Architecture
+  - Systems Design
+  - Operating Systems
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -375,12 +610,23 @@ papers:
   primary_source: https://www.microsoft.com/en-us/research/publication/hints-for-computer-system-design/
   date_recommended: '2026-08-24'
   date_completed: null
-  related_papers: [ARCH-001, ARCH-002, OS-001, OS-002]
+  related_papers:
+  - ARCH-001
+  - ARCH-002
+  - OS-001
+  - OS-002
 - id: OBS-002
   title: Dynamic Instrumentation of Production Systems
-  authors: [Bryan M. Cantrill, Michael W. Shapiro, Adam H. Leventhal]
+  authors:
+  - Bryan M. Cantrill
+  - Michael W. Shapiro
+  - Adam H. Leventhal
   year: 2004
-  field: [Observability, Dynamic Instrumentation, Operating Systems, Performance Debugging]
+  field:
+  - Observability
+  - Dynamic Instrumentation
+  - Operating Systems
+  - Performance Debugging
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -388,12 +634,20 @@ papers:
   primary_source: https://www.usenix.org/conference/2004-usenix-annual-technical-conference/dynamic-instrumentation-production-systems
   date_recommended: '2026-08-25'
   date_completed: null
-  related_papers: [OBS-001, EBPF-001, DBG-001, OS-001]
+  related_papers:
+  - OBS-001
+  - EBPF-001
+  - DBG-001
+  - OS-001
 - id: ALG-002
   title: Space/Time Trade-offs in Hash Coding with Allowable Errors
-  authors: [Burton H. Bloom]
+  authors:
+  - Burton H. Bloom
   year: 1970
-  field: [Algorithms, Probabilistic Data Structures, Hashing]
+  field:
+  - Algorithms
+  - Probabilistic Data Structures
+  - Hashing
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -401,12 +655,20 @@ papers:
   primary_source: https://dl.acm.org/doi/10.1145/362686.362692
   date_recommended: '2026-08-26'
   date_completed: null
-  related_papers: [ALG-001, DB-001, DS-002]
+  related_papers:
+  - ALG-001
+  - DB-001
+  - DS-002
 - id: DBG-002
   title: Simplifying and Isolating Failure-Inducing Input
-  authors: [Andreas Zeller, Ralf Hildebrandt]
+  authors:
+  - Andreas Zeller
+  - Ralf Hildebrandt
   year: 2002
-  field: [Debugging, Automated Debugging, Software Testing]
+  field:
+  - Debugging
+  - Automated Debugging
+  - Software Testing
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -414,12 +676,27 @@ papers:
   primary_source: https://www.st.cs.uni-saarland.de/papers/tse2002/
   date_recommended: '2026-08-27'
   date_completed: null
-  related_papers: [DBG-001, OBS-002, ALG-001]
+  related_papers:
+  - DBG-001
+  - OBS-002
+  - ALG-001
 - id: EBPF-002
   title: 'The eXpress Data Path: Fast Programmable Packet Processing in the Operating System Kernel'
-  authors: [Toke Høiland-Jørgensen, Jesper Dangaard Brouer, Daniel Borkmann, John Fastabend, Tom Herbert, David Ahern, David Miller]
+  authors:
+  - Toke Høiland-Jørgensen
+  - Jesper Dangaard Brouer
+  - Daniel Borkmann
+  - John Fastabend
+  - Tom Herbert
+  - David Ahern
+  - David Miller
   year: 2018
-  field: [eBPF, XDP, Computer Networking, Operating Systems, Packet Processing]
+  field:
+  - eBPF
+  - XDP
+  - Computer Networking
+  - Operating Systems
+  - Packet Processing
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -427,25 +704,47 @@ papers:
   primary_source: https://doi.org/10.1145/3281411.3281443
   date_recommended: '2026-08-28'
   date_completed: null
-  related_papers: [EBPF-001, NET-001, NET-003, OBS-002, CA-001]
+  related_papers:
+  - EBPF-001
+  - NET-001
+  - NET-003
+  - OBS-002
+  - CA-001
 - id: DB-003
   title: Access Path Selection in a Relational Database Management System
-  authors: [P. Griffiths Selinger, M. M. Astrahan, D. D. Chamberlin, R. A. Lorie, T. G. Price]
+  authors:
+  - P. Griffiths Selinger
+  - M. M. Astrahan
+  - D. D. Chamberlin
+  - R. A. Lorie
+  - T. G. Price
   year: 1979
-  field: [Databases, Query Optimization, Relational Systems]
+  field:
+  - Databases
+  - Query Optimization
+  - Relational Systems
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
   why_it_matters: Established practical cost-based relational query optimization in System R, introducing selectivity and cardinality estimation, access-path costing, join-order search, and preservation of interesting orders that became foundational to production SQL optimizers.
-  primary_source: https://research.ibm.com/publications/access-path-selection-in-a-relational-database-management-system
+  primary_source: https://research.ibm.com/publications/access-path-selection-relational-database-management-system
   date_recommended: '2026-08-29'
   date_completed: null
-  related_papers: [DB-001, DB-002, ALG-002]
+  related_papers:
+  - DB-001
+  - DB-002
+  - ALG-002
 - id: ML-003
   title: Learning representations by back-propagating errors
-  authors: [David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams]
+  authors:
+  - David E. Rumelhart
+  - Geoffrey E. Hinton
+  - Ronald J. Williams
   year: 1986
-  field: [Machine Learning, Neural Networks, Representation Learning]
+  field:
+  - Machine Learning
+  - Neural Networks
+  - Representation Learning
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -453,12 +752,19 @@ papers:
   primary_source: https://www.nature.com/articles/323533a0
   date_recommended: '2026-08-30'
   date_completed: null
-  related_papers: [ML-001, ML-002, AI-001]
+  related_papers:
+  - ML-001
+  - ML-002
+  - AI-001
 - id: AI-003
   title: Programs with Common Sense
-  authors: [John McCarthy]
+  authors:
+  - John McCarthy
   year: 1959
-  field: [Artificial Intelligence, Knowledge Representation, Automated Reasoning]
+  field:
+  - Artificial Intelligence
+  - Knowledge Representation
+  - Automated Reasoning
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -466,12 +772,21 @@ papers:
   primary_source: https://www-formal.stanford.edu/jmc/mcc59.html
   date_recommended: '2026-08-31'
   date_completed: null
-  related_papers: [AI-001, AI-002, ARCH-002]
+  related_papers:
+  - AI-001
+  - AI-002
+  - ARCH-002
 - id: OS-004
   title: 'Exokernel: An Operating System Architecture for Application-Level Resource Management'
-  authors: [Dawson R. Engler, M. Frans Kaashoek, James O'Toole Jr.]
+  authors:
+  - Dawson R. Engler
+  - M. Frans Kaashoek
+  - James O'Toole Jr.
   year: 1995
-  field: [Operating Systems, Kernel Architecture, Resource Management]
+  field:
+  - Operating Systems
+  - Kernel Architecture
+  - Resource Management
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -479,12 +794,21 @@ papers:
   primary_source: https://pdos.csail.mit.edu/6.828/2008/readings/engler95exokernel.pdf
   date_recommended: '2026-09-01'
   date_completed: null
-  related_papers: [OS-001, OS-002, OS-003, EBPF-001, ARCH-001]
+  related_papers:
+  - OS-001
+  - OS-002
+  - OS-003
+  - EBPF-001
+  - ARCH-001
 - id: NET-004
   title: The Design Philosophy of the DARPA Internet Protocols
-  authors: [David D. Clark]
+  authors:
+  - David D. Clark
   year: 1988
-  field: [Computer Networking, Internet Architecture, Protocol Design]
+  field:
+  - Computer Networking
+  - Internet Architecture
+  - Protocol Design
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -492,12 +816,20 @@ papers:
   primary_source: https://groups.csail.mit.edu/ana/People/DDC/lbook-arch-V1.pdf
   date_recommended: '2026-09-02'
   date_completed: null
-  related_papers: [NET-002, NET-003, ARCH-001, DS-003]
+  related_papers:
+  - NET-002
+  - NET-003
+  - ARCH-001
+  - DS-003
 - id: CA-003
   title: An Efficient Algorithm for Exploiting Multiple Arithmetic Units
-  authors: [R. M. Tomasulo]
+  authors:
+  - R. M. Tomasulo
   year: 1967
-  field: [Computer Architecture, Out-of-Order Execution, Dynamic Scheduling]
+  field:
+  - Computer Architecture
+  - Out-of-Order Execution
+  - Dynamic Scheduling
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -505,12 +837,19 @@ papers:
   primary_source: https://doi.org/10.1147/rd.111.0025
   date_recommended: '2026-09-03'
   date_completed: null
-  related_papers: [CA-001, COMP-002, OS-003]
+  related_papers:
+  - CA-001
+  - COMP-002
+  - OS-003
 - id: ALG-003
   title: A note on two problems in connexion with graphs
-  authors: [E. W. Dijkstra]
+  authors:
+  - E. W. Dijkstra
   year: 1959
-  field: [Algorithms, Graph Algorithms, Shortest Paths]
+  field:
+  - Algorithms
+  - Graph Algorithms
+  - Shortest Paths
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -518,12 +857,23 @@ papers:
   primary_source: https://ir.cwi.nl/pub/9256
   date_recommended: '2026-09-05'
   date_completed: null
-  related_papers: [ALG-001, ALG-002, NET-002, NET-004]
+  related_papers:
+  - ALG-001
+  - ALG-002
+  - NET-002
+  - NET-004
 - id: DS-005
   title: The Byzantine Generals Problem
-  authors: [Leslie Lamport, Robert Shostak, Marshall Pease]
+  authors:
+  - Leslie Lamport
+  - Robert Shostak
+  - Marshall Pease
   year: 1982
-  field: [Distributed Systems, Byzantine Fault Tolerance, Consensus, Fault Tolerance]
+  field:
+  - Distributed Systems
+  - Byzantine Fault Tolerance
+  - Consensus
+  - Fault Tolerance
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
@@ -531,4 +881,30 @@ papers:
   primary_source: https://www.microsoft.com/en-us/research/publication/byzantine-generals-problem/
   date_recommended: '2026-09-06'
   date_completed: null
-  related_papers: [DS-003, DS-004, SEC-001, ARCH-001]
+  related_papers:
+  - DS-003
+  - DS-004
+  - SEC-001
+  - ARCH-001
+- id: COMP-003
+  title: A Unified Approach to Global Program Optimization
+  authors:
+  - Gary A. Kildall
+  year: 1973
+  field:
+  - Compilers
+  - Data-Flow Analysis
+  - Program Optimization
+  - Static Analysis
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established a general fixed-point framework for global program analysis over control-flow graphs, using meet operations and transfer functions to unify constant propagation, common-subexpression elimination, live-expression analysis, and related compiler optimizations.
+  primary_source: https://hdl.handle.net/10945/42162
+  date_recommended: '2026-09-07'
+  date_completed: null
+  related_papers:
+  - COMP-001
+  - COMP-002
+  - ALG-003
+  - EBPF-002
