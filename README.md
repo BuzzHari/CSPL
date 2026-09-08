@@ -50,6 +50,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [ALG-003](notes/ALG-003-note-on-two-problems-in-connexion-with-graphs.md) | A note on two problems in connexion with graphs | 1959 | Algorithms / Graph Algorithms / Shortest Paths | Queued | Core |
 | [DS-005](notes/DS-005-byzantine-generals-problem.md) | The Byzantine Generals Problem | 1982 | Distributed Systems / Byzantine Fault Tolerance | Queued | Core |
 | [COMP-003](notes/COMP-003-unified-approach-global-program-optimization.md) | A Unified Approach to Global Program Optimization | 1973 | Compilers / Data-Flow Analysis | Queued | Core |
+| [SEC-003](notes/SEC-003-note-on-the-confinement-problem.md) | A Note on the Confinement Problem | 1973 | Computer Security / Confinement / Covert Channels | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
