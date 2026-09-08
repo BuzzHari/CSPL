@@ -908,3 +908,25 @@ papers:
   - COMP-002
   - ALG-003
   - EBPF-002
+- id: SEC-003
+  title: A Note on the Confinement Problem
+  authors:
+  - Butler W. Lampson
+  year: 1973
+  field:
+  - Computer Security
+  - Confinement
+  - Information Flow
+  - Covert Channels
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Distinguished access control from confinement, showed how untrusted programs can leak information through unintended shared mechanisms, and introduced covert-channel reasoning that became foundational to information-flow security and isolation analysis.
+  primary_source: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acrobat-24.pdf
+  date_recommended: '2026-09-08'
+  date_completed: null
+  related_papers:
+  - SEC-001
+  - SEC-002
+  - OS-004
+  - OBS-002
