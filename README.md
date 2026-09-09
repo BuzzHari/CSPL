@@ -51,6 +51,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [DS-005](notes/DS-005-byzantine-generals-problem.md) | The Byzantine Generals Problem | 1982 | Distributed Systems / Byzantine Fault Tolerance | Queued | Core |
 | [COMP-003](notes/COMP-003-unified-approach-global-program-optimization.md) | A Unified Approach to Global Program Optimization | 1973 | Compilers / Data-Flow Analysis | Queued | Core |
 | [SEC-003](notes/SEC-003-note-on-the-confinement-problem.md) | A Note on the Confinement Problem | 1973 | Computer Security / Confinement / Covert Channels | Queued | Core |
+| [OBS-003](notes/OBS-003-gprof-call-graph-execution-profiler.md) | gprof: A Call Graph Execution Profiler | 1982 | Observability / Performance Profiling / Call-Graph Profiling | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
