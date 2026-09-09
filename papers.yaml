@@ -930,3 +930,28 @@ papers:
   - SEC-002
   - OS-004
   - OBS-002
+- id: OBS-003
+  title: 'gprof: A Call Graph Execution Profiler'
+  authors:
+  - Susan L. Graham
+  - Peter B. Kessler
+  - Marshall K. McKusick
+  year: 1982
+  field:
+  - Observability
+  - Performance Profiling
+  - Call-Graph Profiling
+  - Debugging
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Extended execution profiling from flat hot-routine lists to dynamic call-graph attribution by combining statistical PC sampling with call-arc instrumentation, establishing the self-versus-descendant cost model that shaped Unix profiling and later performance-analysis tools.
+  primary_source: https://doi.org/10.1145/800230.806987
+  date_recommended: '2026-09-09'
+  date_completed: null
+  related_papers:
+  - OBS-001
+  - OBS-002
+  - DBG-001
+  - COMP-003
+  - CA-003
