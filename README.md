@@ -52,6 +52,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [COMP-003](notes/COMP-003-unified-approach-global-program-optimization.md) | A Unified Approach to Global Program Optimization | 1973 | Compilers / Data-Flow Analysis | Queued | Core |
 | [SEC-003](notes/SEC-003-note-on-the-confinement-problem.md) | A Note on the Confinement Problem | 1973 | Computer Security / Confinement / Covert Channels | Queued | Core |
 | [OBS-003](notes/OBS-003-gprof-call-graph-execution-profiler.md) | gprof: A Call Graph Execution Profiler | 1982 | Observability / Performance Profiling / Call-Graph Profiling | Queued | Core |
+| [DBG-003](notes/DBG-003-valgrind-framework-heavyweight-dynamic-binary-instrumentation.md) | Valgrind: A Framework for Heavyweight Dynamic Binary Instrumentation | 2007 | Debugging / Dynamic Binary Instrumentation / Dynamic Analysis | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
