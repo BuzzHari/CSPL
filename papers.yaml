@@ -955,3 +955,27 @@ papers:
   - DBG-001
   - COMP-003
   - CA-003
+- id: DBG-003
+  title: 'Valgrind: A Framework for Heavyweight Dynamic Binary Instrumentation'
+  authors:
+  - Nicholas Nethercote
+  - Julian Seward
+  year: 2007
+  field:
+  - Debugging
+  - Dynamic Binary Instrumentation
+  - Dynamic Analysis
+  - Program Analysis
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established Valgrind as a reusable dynamic binary instrumentation substrate for heavyweight runtime analyses, with machine-independent IR translation and shadow-value propagation enabling sophisticated memory checking, profiling, and debugging tools without requiring source-code changes or recompilation.
+  primary_source: https://valgrind.org/docs/valgrind2007.pdf
+  date_recommended: '2026-09-10'
+  date_completed: null
+  related_papers:
+  - DBG-001
+  - DBG-002
+  - OBS-002
+  - OBS-003
+  - COMP-003
