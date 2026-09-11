@@ -979,3 +979,26 @@ papers:
   - OBS-002
   - OBS-003
   - COMP-003
+- id: ARCH-004
+  title: 'No Silver Bullet: Essence and Accidents of Software Engineering'
+  authors:
+  - Frederick P. Brooks Jr.
+  year: 1987
+  field:
+  - Software Architecture
+  - Software Engineering
+  - Complexity
+  - System Design
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Distinguished essential complexity inherent in a software problem from accidental complexity introduced by tools and representations, arguing that no single technique can deliver a universal order-of-magnitude improvement and reshaping how software engineering evaluates abstractions, tools, design methods, and productivity claims.
+  primary_source: https://www.cs.unc.edu/techreports/86-020.pdf
+  date_recommended: '2026-09-11'
+  date_completed: null
+  related_papers:
+  - ARCH-001
+  - ARCH-002
+  - ARCH-003
+  - COMP-003
+  - DBG-003
