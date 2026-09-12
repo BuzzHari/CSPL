@@ -54,6 +54,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [OBS-003](notes/OBS-003-gprof-call-graph-execution-profiler.md) | gprof: A Call Graph Execution Profiler | 1982 | Observability / Performance Profiling / Call-Graph Profiling | Queued | Core |
 | [DBG-003](notes/DBG-003-valgrind-framework-heavyweight-dynamic-binary-instrumentation.md) | Valgrind: A Framework for Heavyweight Dynamic Binary Instrumentation | 2007 | Debugging / Dynamic Binary Instrumentation / Dynamic Analysis | Queued | Core |
 | [ARCH-004](notes/ARCH-004-no-silver-bullet.md) | No Silver Bullet: Essence and Accidents of Software Engineering | 1987 | Software Architecture / Software Engineering / Complexity | Queued | Core |
+| [ML-004](notes/ML-004-theory-of-the-learnable.md) | A Theory of the Learnable | 1984 | Machine Learning / Computational Learning Theory / PAC Learning | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
