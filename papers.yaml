@@ -1002,3 +1002,24 @@ papers:
   - ARCH-003
   - COMP-003
   - DBG-003
+- id: ML-004
+  title: A Theory of the Learnable
+  authors:
+  - Leslie G. Valiant
+  year: 1984
+  field:
+  - Machine Learning
+  - Computational Learning Theory
+  - PAC Learning
+  - Learning Theory
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Founded computational learning theory by giving a rigorous model of efficient learning from examples and oracles, introducing the framework that became PAC learning and formalizing how generalization, sample complexity, approximation error, confidence, and computational feasibility interact.
+  primary_source: https://doi.org/10.1145/1968.1972
+  date_recommended: '2026-09-12'
+  date_completed: null
+  related_papers:
+  - ML-003
+  - ML-001
+  - AI-003
