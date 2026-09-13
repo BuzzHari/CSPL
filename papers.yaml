@@ -1023,3 +1023,26 @@ papers:
   - ML-003
   - ML-001
   - AI-003
+- id: DB-004
+  title: The Case for Shared Nothing
+  authors:
+  - Michael Stonebraker
+  year: 1986
+  field:
+  - Databases
+  - Parallel Databases
+  - Shared-Nothing Architecture
+  - Distributed Systems
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established the shared-nothing architecture as a compelling scale-out model for high-transaction-rate database systems, arguing that partitioned private CPU, memory, and storage avoid global hardware contention and let aggregate capacity grow with node count while making data placement and transaction locality central design concerns.
+  primary_source: https://db.cs.berkeley.edu/papers/hpts85-nothing.pdf
+  date_recommended: '2026-09-13'
+  date_completed: null
+  related_papers:
+  - DB-001
+  - DB-003
+  - DS-001
+  - DS-002
+  - ARCH-001
