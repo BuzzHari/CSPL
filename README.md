@@ -55,6 +55,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [DBG-003](notes/DBG-003-valgrind-framework-heavyweight-dynamic-binary-instrumentation.md) | Valgrind: A Framework for Heavyweight Dynamic Binary Instrumentation | 2007 | Debugging / Dynamic Binary Instrumentation / Dynamic Analysis | Queued | Core |
 | [ARCH-004](notes/ARCH-004-no-silver-bullet.md) | No Silver Bullet: Essence and Accidents of Software Engineering | 1987 | Software Architecture / Software Engineering / Complexity | Queued | Core |
 | [ML-004](notes/ML-004-theory-of-the-learnable.md) | A Theory of the Learnable | 1984 | Machine Learning / Computational Learning Theory / PAC Learning | Queued | Core |
+| [DB-004](notes/DB-004-case-for-shared-nothing.md) | The Case for Shared Nothing | 1986 | Databases / Parallel Databases / Shared-Nothing Architecture | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
