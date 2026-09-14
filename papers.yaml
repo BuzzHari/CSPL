@@ -1046,3 +1046,43 @@ papers:
   - DS-001
   - DS-002
   - ARCH-001
+- id: AI-004
+  title: Human-level control through deep reinforcement learning
+  authors:
+  - Volodymyr Mnih
+  - Koray Kavukcuoglu
+  - David Silver
+  - Andrei A. Rusu
+  - Joel Veness
+  - Marc G. Bellemare
+  - Alex Graves
+  - Martin Riedmiller
+  - Andreas K. Fidjeland
+  - Georg Ostrovski
+  - Stig Petersen
+  - Charles Beattie
+  - Amir Sadik
+  - Ioannis Antonoglou
+  - Helen King
+  - Dharshan Kumaran
+  - Daan Wierstra
+  - Shane Legg
+  - Demis Hassabis
+  year: 2015
+  field:
+  - Artificial Intelligence
+  - Reinforcement Learning
+  - Deep Learning
+  - Representation Learning
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established Deep Q-Networks as a landmark demonstration that deep representation learning and model-free reinforcement learning can be combined to learn control directly from high-dimensional sensory input, with experience replay and a target network making deep Q-learning stable across a broad Atari benchmark.
+  primary_source: https://www.nature.com/articles/nature14236
+  date_recommended: '2026-09-14'
+  date_completed: null
+  related_papers:
+  - AI-001
+  - ML-001
+  - ML-003
+  - ML-004
