@@ -1086,3 +1086,25 @@ papers:
   - ML-001
   - ML-003
   - ML-004
+- id: OS-005
+  title: 'Monitors: An Operating System Structuring Concept'
+  authors:
+  - C. A. R. Hoare
+  year: 1974
+  field:
+  - Operating Systems
+  - Concurrency
+  - Synchronization
+  - Structured Multiprogramming
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Developed the monitor as a structured concurrency abstraction that encapsulates shared state with mutually exclusive procedures and condition variables, adding proof rules and resource-scheduling examples that strongly influenced operating-system synchronization and later language-level concurrency constructs.
+  primary_source: https://doi.org/10.1145/355620.361161
+  date_recommended: '2026-09-15'
+  date_completed: null
+  related_papers:
+  - OS-001
+  - OS-002
+  - ARCH-002
+  - DBG-001
