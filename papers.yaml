@@ -1108,3 +1108,26 @@ papers:
   - OS-002
   - ARCH-002
   - DBG-001
+- id: CA-004
+  title: Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities
+  authors:
+  - Gene M. Amdahl
+  year: 1967
+  field:
+  - Computer Architecture
+  - Parallel Computing
+  - Scalability
+  - Performance Analysis
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established the scaling argument now known as Amdahl's Law, showing that the end-to-end benefit of parallelism or any optimization is bounded by the fraction of execution that remains unimproved and making workload decomposition and bottleneck analysis foundational to performance engineering.
+  primary_source: https://doi.org/10.1145/1465482.1465560
+  date_recommended: '2026-09-16'
+  date_completed: null
+  related_papers:
+  - CA-001
+  - CA-003
+  - DB-004
+  - OBS-003
+  - OS-003
