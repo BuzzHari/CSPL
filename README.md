@@ -58,6 +58,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [DB-004](notes/DB-004-case-for-shared-nothing.md) | The Case for Shared Nothing | 1986 | Databases / Parallel Databases / Shared-Nothing Architecture | Queued | Core |
 | [AI-004](notes/AI-004-human-level-control-deep-reinforcement-learning.md) | Human-level control through deep reinforcement learning | 2015 | Artificial Intelligence / Reinforcement Learning / Deep Learning | Queued | Core |
 | [OS-005](notes/OS-005-monitors-operating-system-structuring-concept.md) | Monitors: An Operating System Structuring Concept | 1974 | Operating Systems / Concurrency / Synchronization | Queued | Core |
+| [CA-004](notes/CA-004-validity-single-processor-approach-large-scale-computing.md) | Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities | 1967 | Computer Architecture / Parallel Computing / Scalability | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
