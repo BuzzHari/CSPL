@@ -1131,3 +1131,25 @@ papers:
   - DB-004
   - OBS-003
   - OS-003
+- id: ALG-004
+  title: The Complexity of Theorem-Proving Procedures
+  authors:
+  - Stephen A. Cook
+  year: 1971
+  field:
+  - Algorithms
+  - Computational Complexity
+  - NP-Completeness
+  - Polynomial-Time Reductions
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Founded NP-completeness theory by showing how every polynomial-time nondeterministic computation can be encoded into a propositional tautology problem through an efficient reduction, making polynomial reductions a central tool for classifying computational difficulty.
+  primary_source: https://www.cs.toronto.edu/~sacook/homepage/1971.pdf
+  date_recommended: '2026-09-17'
+  date_completed: null
+  related_papers:
+  - ALG-003
+  - COMP-003
+  - AI-003
+  - ML-004
