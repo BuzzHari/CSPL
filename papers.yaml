@@ -1153,3 +1153,26 @@ papers:
   - COMP-003
   - AI-003
   - ML-004
+- id: NET-005
+  title: Random Early Detection Gateways for Congestion Avoidance
+  authors:
+  - Sally Floyd
+  - Van Jacobson
+  year: 1993
+  field:
+  - Computer Networking
+  - Active Queue Management
+  - Congestion Avoidance
+  - Queue Management
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established Random Early Detection as a foundational active queue management algorithm, using filtered queue occupancy and probabilistic early marking or dropping to signal incipient congestion before buffer overflow, reduce persistent queueing, avoid synchronized TCP backoff, and tolerate short traffic bursts without requiring per-flow state.
+  primary_source: https://www.icir.org/floyd/papers/early.pdf
+  date_recommended: '2026-09-18'
+  date_completed: null
+  related_papers:
+  - NET-003
+  - NET-004
+  - NET-002
+  - ARCH-001
