@@ -1176,3 +1176,26 @@ papers:
   - NET-004
   - NET-002
   - ARCH-001
+- id: COMP-004
+  title: 'LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation'
+  authors:
+  - Chris Lattner
+  - Vikram Adve
+  year: 2004
+  field:
+  - Compilers
+  - Intermediate Representations
+  - Program Analysis
+  - Compiler Infrastructure
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established LLVM's typed SSA-based low-level intermediate representation and multi-stage compiler framework as a reusable substrate for language-independent optimization across compile time, link time, runtime, and post-deployment stages, shaping modern compiler infrastructure.
+  primary_source: https://llvm.org/pubs/2004-01-30-CGO-LLVM.html
+  date_recommended: '2026-09-19'
+  date_completed: null
+  related_papers:
+  - COMP-001
+  - COMP-003
+  - CA-003
+  - EBPF-002
