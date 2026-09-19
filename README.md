@@ -61,6 +61,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [CA-004](notes/CA-004-validity-single-processor-approach-large-scale-computing.md) | Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities | 1967 | Computer Architecture / Parallel Computing / Scalability | Queued | Core |
 | [ALG-004](notes/ALG-004-complexity-of-theorem-proving-procedures.md) | The Complexity of Theorem-Proving Procedures | 1971 | Algorithms / Computational Complexity / NP-Completeness | Queued | Core |
 | [NET-005](notes/NET-005-random-early-detection-gateways-congestion-avoidance.md) | Random Early Detection Gateways for Congestion Avoidance | 1993 | Computer Networking / Active Queue Management / Congestion Avoidance | Queued | Core |
+| [COMP-004](notes/COMP-004-llvm-compilation-framework-lifelong-program-analysis-transformation.md) | LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation | 2004 | Compilers / Intermediate Representations / Program Analysis | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
