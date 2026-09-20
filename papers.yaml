@@ -1199,3 +1199,25 @@ papers:
   - COMP-003
   - CA-003
   - EBPF-002
+- id: SEC-004
+  title: A Lattice Model of Secure Information Flow
+  authors:
+  - Dorothy E. Denning
+  year: 1976
+  field:
+  - Computer Security
+  - Information Flow Control
+  - Lattice Security
+  - Program Analysis
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Established a mathematical lattice model for secure information flow, formalizing security classes, permitted flows, explicit and implicit information dependencies, and both runtime and compile-time enforcement mechanisms that became foundational to information-flow control and program security analysis.
+  primary_source: https://faculty.nps.edu/dedennin/publications/lattice76.pdf
+  date_recommended: '2026-09-20'
+  date_completed: null
+  related_papers:
+  - SEC-003
+  - SEC-001
+  - COMP-003
+  - OS-005
