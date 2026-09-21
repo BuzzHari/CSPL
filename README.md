@@ -63,6 +63,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [NET-005](notes/NET-005-random-early-detection-gateways-congestion-avoidance.md) | Random Early Detection Gateways for Congestion Avoidance | 1993 | Computer Networking / Active Queue Management / Congestion Avoidance | Queued | Core |
 | [COMP-004](notes/COMP-004-llvm-compilation-framework-lifelong-program-analysis-transformation.md) | LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation | 2004 | Compilers / Intermediate Representations / Program Analysis | Queued | Core |
 | [SEC-004](notes/SEC-004-lattice-model-secure-information-flow.md) | A Lattice Model of Secure Information Flow | 1976 | Computer Security / Information Flow / Lattice Security | Queued | Core |
+| [EBPF-003](notes/EBPF-003-simple-precise-static-analysis-untrusted-linux-kernel-extensions.md) | Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions | 2019 | eBPF / Static Analysis / Abstract Interpretation | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
