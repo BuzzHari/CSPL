@@ -1221,3 +1221,33 @@ papers:
   - SEC-001
   - COMP-003
   - OS-005
+- id: EBPF-003
+  title: Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions
+  authors:
+  - Elazar Gershuni
+  - Nadav Amit
+  - Arie Gurfinkel
+  - Nina Narodytska
+  - Jorge A. Navas
+  - Noam Rinetzky
+  - Leonid Ryzhyk
+  - Mooly Sagiv
+  year: 2019
+  field:
+  - eBPF
+  - Static Analysis
+  - Abstract Interpretation
+  - Operating Systems
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Showed how abstract interpretation can provide a sound, scalable verifier for real-world eBPF programs, using a memory abstraction and the Zone numerical domain to reduce false positives, avoid path explosion, and support loops while proving kernel-safety properties.
+  primary_source: https://doi.org/10.1145/3314221.3314590
+  date_recommended: '2026-09-21'
+  date_completed: null
+  related_papers:
+  - EBPF-001
+  - EBPF-002
+  - COMP-003
+  - SEC-004
+  - OS-005
