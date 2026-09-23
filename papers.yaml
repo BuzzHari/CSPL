@@ -1266,7 +1266,7 @@ papers:
   status: Queued
   priority: Core
   inclusion_reason: Daily CS Paper
-  why_it_matters: Proved the FLP impossibility result: in a completely asynchronous message-passing system, no deterministic consensus protocol can guarantee termination in every admissible execution if even one process may crash, establishing a fundamental boundary that motivates partial synchrony, failure detectors, randomization, and the liveness assumptions of practical consensus systems.
+  why_it_matters: "Proved the FLP impossibility result: in a completely asynchronous message-passing system, no deterministic consensus protocol can guarantee termination in every admissible execution if even one process may crash, establishing a fundamental boundary that motivates partial synchrony, failure detectors, randomization, and the liveness assumptions of practical consensus systems."
   primary_source: https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf
   date_recommended: '2026-09-22'
   date_completed: null
