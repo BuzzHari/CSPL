@@ -1276,3 +1276,36 @@ papers:
   - DS-005
   - DB-004
   - NET-004
+- id: OBS-004
+  title: 'Continuous Profiling: Where Have All the Cycles Gone?'
+  authors:
+  - Jennifer M. Anderson
+  - Lance M. Berc
+  - Jeffrey Dean
+  - Sanjay Ghemawat
+  - Monika R. Henzinger
+  - Shun-Tak A. Leung
+  - Richard L. Sites
+  - Mark T. Vandevoorde
+  - Carl A. Waldspurger
+  - William E. Weihl
+  year: 1997
+  field:
+  - Observability
+  - Continuous Profiling
+  - Performance Analysis
+  - Operating Systems
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Demonstrated that statistically sampled, whole-system performance profiling can run continuously on production machines at low overhead while retaining enough detail to attribute cycles and processor stalls to individual instructions, establishing an architectural foundation for modern always-on performance observability and continuous profiling.
+  primary_source: https://www.waldspurger.org/carl/papers/dcpi-sosp97.pdf
+  date_recommended: '2026-09-23'
+  date_completed: null
+  related_papers:
+  - OBS-001
+  - OBS-002
+  - OBS-003
+  - DBG-003
+  - CA-003
+  - COMP-004
