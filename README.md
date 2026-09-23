@@ -65,6 +65,7 @@ The library prioritizes papers that materially changed research, industry practi
 | [SEC-004](notes/SEC-004-lattice-model-secure-information-flow.md) | A Lattice Model of Secure Information Flow | 1976 | Computer Security / Information Flow / Lattice Security | Queued | Core |
 | [EBPF-003](notes/EBPF-003-simple-precise-static-analysis-untrusted-linux-kernel-extensions.md) | Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions | 2019 | eBPF / Static Analysis / Abstract Interpretation | Queued | Core |
 | [DS-006](notes/DS-006-impossibility-distributed-consensus-one-faulty-process.md) | Impossibility of Distributed Consensus with One Faulty Process | 1985 | Distributed Systems / Consensus / Impossibility Results | Queued | Core |
+| [OBS-004](notes/OBS-004-continuous-profiling-where-have-all-the-cycles-gone.md) | Continuous Profiling: Where Have All the Cycles Gone? | 1997 | Observability / Continuous Profiling / Performance Analysis | Queued | Core |
 
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
