@@ -797,7 +797,6 @@ papers:
   related_papers:
   - OS-001
   - OS-002
-  - OS-003
   - EBPF-001
   - ARCH-001
 - id: NET-004
@@ -1309,3 +1308,28 @@ papers:
   - DBG-003
   - CA-003
   - COMP-004
+- id: DBG-004
+  title: 'AddressSanitizer: A Fast Address Sanity Checker'
+  authors:
+  - Konstantin Serebryany
+  - Derek Bruening
+  - Alexander Potapenko
+  - Dmitry Vyukov
+  year: 2012
+  field:
+  - Debugging
+  - Memory Safety
+  - Dynamic Analysis
+  - Compiler Instrumentation
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Made broad C and C++ memory-error detection practical in routine testing by combining compiler-inserted checks, compact shadow memory, poisoned redzones, allocator interposition, and freed-object quarantine to catch spatial and temporal memory bugs close to the faulty access at far lower overhead than heavyweight dynamic binary instrumentation.
+  primary_source: https://www.usenix.org/conference/atc12/addresssanitizer-fast-address-sanity-checker
+  date_recommended: '2026-09-24'
+  date_completed: null
+  related_papers:
+  - DBG-003
+  - DBG-001
+  - COMP-004
+  - SEC-001
