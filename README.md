@@ -68,6 +68,8 @@ The library prioritizes papers that materially changed research, industry practi
 | [OBS-004](notes/OBS-004-continuous-profiling-where-have-all-the-cycles-gone.md) | Continuous Profiling: Where Have All the Cycles Gone? | 1997 | Observability / Continuous Profiling / Performance Analysis | Queued | Core |
 | [DBG-004](notes/DBG-004-addresssanitizer-fast-address-sanity-checker.md) | AddressSanitizer: A Fast Address Sanity Checker | 2012 | Debugging / Memory Safety / Dynamic Analysis | Queued | Core |
 
+| [DB-005](notes/DB-005-dynamo-amazons-highly-available-key-value-store.md) | Dynamo: Amazon’s Highly Available Key-value Store | 2007 | Databases / Distributed Databases / Key-Value Stores / Eventual Consistency | Queued | Core |
+
 The canonical machine-readable index is [`papers.yaml`](papers.yaml).
 
 ## Inclusion policy
