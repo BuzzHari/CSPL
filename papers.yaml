@@ -1333,3 +1333,33 @@ papers:
   - DBG-001
   - COMP-004
   - SEC-001
+- id: DB-005
+  title: 'Dynamo: Amazon’s Highly Available Key-value Store'
+  authors:
+  - Giuseppe DeCandia
+  - Deniz Hastorun
+  - Madan Jampani
+  - Gunavardhan Kakulapati
+  - Avinash Lakshman
+  - Alex Pilchin
+  - Swaminathan Sivasubramanian
+  - Peter Vosshall
+  - Werner Vogels
+  year: 2007
+  field:
+  - Databases
+  - Distributed Databases
+  - Key-Value Stores
+  - Eventual Consistency
+  status: Queued
+  priority: Core
+  inclusion_reason: Daily CS Paper
+  why_it_matters: Combined consistent hashing, replication, vector clocks, sloppy quorums, hinted handoff, Merkle-tree anti-entropy, gossip membership, and application-assisted reconciliation into a highly available production key-value store whose design strongly influenced later distributed databases and NoSQL systems.
+  primary_source: https://www.amazon.science/publications/dynamo-amazons-highly-available-key-value-store
+  date_recommended: '2026-09-25'
+  date_completed: null
+  related_papers:
+  - DB-004
+  - DS-003
+  - DS-004
+  - DS-006
